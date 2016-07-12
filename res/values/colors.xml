@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#ff0000</color>
+    <color name="deepSkyBlue">#00efff</color>
+    <color name="yellow">#ffff00</color>
+    <color name="MCActivity_descTextColor">#000000</color>
+    <color name="MCActivity_descTextBG">#eecfa1</color>
+    <color name="MCActivity_answerTextColor">#000000</color>
+    <color name="MCActivity_answerTextBG">#00efff</color>
+    <color name="MCActivity_mainBG">#ffffff</color>
+</resources>
