@@ -3,9 +3,9 @@
     <color name="red">#ff0000</color>
     <color name="deepSkyBlue">#00efff</color>
     <color name="yellow">#ffff00</color>
-    <color name="MCActivity_descTextColor">#000000</color>
-    <color name="MCActivity_descTextBG">#eecfa1</color>
-    <color name="MCActivity_answerTextColor">#000000</color>
-    <color name="MCActivity_answerTextBG">#00efff</color>
-    <color name="MCActivity_mainBG">#ffffff</color>
+    <color name="mcactivity_desctextcolor">#000000</color>
+    <color name="mcactivity_desctextbg">#eecfa1</color>
+    <color name="mcactivity_answertextcolor">#000000</color>
+    <color name="mcactivity_answertextbg">#00efff</color>
+    <color name="mcactivity_mainbg">#ffffff</color>
 </resources>
