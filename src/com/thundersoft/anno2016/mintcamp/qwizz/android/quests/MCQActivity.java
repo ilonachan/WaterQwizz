@@ -1,6 +1,7 @@
 package com.thundersoft.anno2016.mintcamp.qwizz.android.quests;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -23,6 +24,9 @@ public class MCQActivity extends Activity implements View.OnClickListener {
     TextView mDesc;
     LinearLayout mAnswers;
     Button[] mButtons;
+    Button Skip;
+    Button Submit;
+    int selected;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -36,6 +40,10 @@ public class MCQActivity extends Activity implements View.OnClickListener {
 
         mDesc = (TextView) findViewById(R.id.desc);
         mAnswers = (LinearLayout) findViewById(R.id.answers);
+
+        Skip = (Button) findViewById(R.id.SkipButton);
+        Submit = (Button) findViewById(R.id.SubmitButton);
+
         mButtons = new Button[quest.getAnswers().length];
 
         mButtons[0] = (Button) findViewById(R.id.answer1);
@@ -48,6 +56,8 @@ public class MCQActivity extends Activity implements View.OnClickListener {
             v.setVisibility(View.GONE);
         }
 
+        Skip.setOnClickListener(this);
+        Submit.setOnClickListener(this);
 
         for (Button mButton : mButtons) {
             mButton.setOnClickListener(this);
@@ -66,20 +76,26 @@ public class MCQActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         for(int i = 0; i < mButtons.length; i++) {
-            if(view == mButtons[i]) {
-                Log.println(Log.ASSERT, "LogTag", "The " + (i+1) + "th Button was pressed");
-
-                try {  quest.answer(i+1);
-                } catch (InvalidAnswerTypeException e) {
-                } catch (InvalidArgumentException e2) {}
-
-                if (quest.isAnswerCorrect()){
-                    Toast.makeText(this,"Correct!!!",Toast.LENGTH_LONG).show();
-                } else {
-                    Toast.makeText(this,"Wrong :´(",Toast.LENGTH_LONG).show();
-                }
-                finish();
+            if (view == mButtons[i]) {
+                Log.println(Log.ASSERT, "LogTag", "The " + (i + 1) + "th Button was pressed");
+                mButtons[selected].setBackgroundColor(getResources().getColor(R.color.mcactivity_answertextbg));
+                mButtons[i].setBackgroundColor(getResources().getColor(R.color.mcactivity_answertextbgc));
+                selected = i;
             }
+        }
+        if(view == Submit && selected > 0) {
+            try {  quest.answer(selected+1);
+            } catch (InvalidAnswerTypeException e) {
+            } catch (InvalidArgumentException e2) {}
+
+            if (quest.isAnswerCorrect()){
+                Toast.makeText(this,"Correct!!!",Toast.LENGTH_LONG).show();
+            } else {
+                Toast.makeText(this,"Wrong :´(",Toast.LENGTH_LONG).show();
+            }
+            setResult(RESULT_OK, new Intent().putExtra("hasAnsweredCorrect",quest.isAnswerCorrect()));
+            finish();
+
         }
     }
 }

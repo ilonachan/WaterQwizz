@@ -7,7 +7,7 @@
     <application android:icon="@drawable/icon" android:label="@string/app_name" android:allowBackup="true">
         <activity android:name=".quests.MCQActivity" android:label="@string/mcquest"/>
         <activity android:name=".quests.EstQActivity" android:label="@string/estquest"/>
-        <activity android:name=".quests.QuestManager"/>
+        <activity android:name=".QuizEndActivity"/>
         <activity android:name=".MainActivity" android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

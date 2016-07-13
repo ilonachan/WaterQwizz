@@ -9,6 +9,7 @@
     <color name="mcactivity_desctextbg">#eecfa1</color>
     <color name="mcactivity_answertextcolor">#000000</color>
     <color name="mcactivity_answertextbg">#00efff</color>
+    <color name="mcactivity_answertextbgc">#009fff</color>
     <color name="mcactivity_mainbg">#ffffff</color>
 
     <color name="mainactivity_titletextcolor">#000000</color>

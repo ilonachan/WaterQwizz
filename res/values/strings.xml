@@ -7,4 +7,6 @@
     <string name="gameManual">Instructions</string>
     <string name="scoreTable">Scores</string>
     <string name="settingsEntry">Options</string>
+    <string name="skip">Skip</string>
+    <string name="submit">Submit</string>
 </resources>
