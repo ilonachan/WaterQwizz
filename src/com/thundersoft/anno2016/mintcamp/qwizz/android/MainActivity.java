@@ -38,11 +38,26 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
     @Override
     public void onClick(View v) {
-        q = new QuestManager();
-        startQuiz(false);
+        for(int i = 0; i < mMenuButtons.length; i++) {
+            if(v == mMenuButtons[i]) {
+                switch(i){
+                    case 0:
+                        startQuiz(false);
+                        break;
+                    case 1:
+                        this.startActivity(new Intent(this, InstructActivity.class));
+                        break;
+                    case 2:
+                        break;
+                    case 3:
+                        break;
+                }
+            }
+        }
     }
 
     public void startQuiz(boolean isTimeRace) {
+        q = new QuestManager();
         proceedQuiz();
     }
 

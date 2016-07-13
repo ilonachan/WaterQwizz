@@ -30,5 +30,14 @@
             android:paddingRight="20dp" android:paddingTop="10dp" android:paddingBottom="10dp"
             android:background="@color/mcactivity_answertextbg"
             android:layout_alignTop="@+id/SubmitButton" android:layout_alignParentStart="true"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/inputValue"
+            android:layout_above="@+id/SubmitButton" android:layout_centerHorizontal="true" android:editable="true"
+            android:focusable="true" android:focusableInTouchMode="true" android:clickable="true"
+            android:hint="Your estimation"/>
 
 </RelativeLayout>
