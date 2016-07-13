@@ -1,5 +1,7 @@
 package com.thundersoft.anno2016.mintcamp.qwizz.quests;
 
+import java.io.Serializable;
+
 /**
  * The <code>GeneralQuest</code> class represents what is a question in a quiz. It is held abstract due to the
  * fact that there are incredibly many possible types of Questions, only to mention the Multiple-Choice
@@ -9,7 +11,7 @@ package com.thundersoft.anno2016.mintcamp.qwizz.quests;
  * @version 1.0 - 11.07.2016.
  * @see MCQuest
  */
-public abstract class GeneralQuest {
+public abstract class GeneralQuest implements Serializable{
 
     protected boolean mCorrect;
     protected boolean mAnswered;

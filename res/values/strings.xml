@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Qwizz Andy</string>
+    <string name="app_name">WaterQuest</string>
+    <string name="mcquest">Multiple-Choice Quest</string>
+    <string name="estquest">Estimate Quest</string>
+    <string name="gameStart">Start Game</string>
+    <string name="gameManual">Instructions</string>
+    <string name="scoreTable">Scores</string>
+    <string name="settingsEntry">Options</string>
 </resources>

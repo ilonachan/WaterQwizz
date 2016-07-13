@@ -1,10 +1,12 @@
 package com.thundersoft.anno2016.mintcamp.qwizz.quests;
 
+import java.io.Serializable;
+
 /**
  * @author fgast34
  * @version 1.0 - 11.07.2016.
  */
-public class EstQuest extends GeneralQuest {
+public class EstQuest extends GeneralQuest{
 
     private int mCorrectAnswer;
     private int mTolerance;
