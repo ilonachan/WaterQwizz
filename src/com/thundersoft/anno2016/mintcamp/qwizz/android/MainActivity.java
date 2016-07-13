@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.*;
 import com.thundersoft.anno2016.mintcamp.qwizz.android.quests.QuestManager;
+import com.thundersoft.anno2016.mintcamp.qwizz.quests.InvalidArgumentException;
 
 /**
  * @author fgast34
@@ -33,8 +34,9 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
     @Override
     public void onClick(View v) {
-        Intent i = new Intent(this,QuestManager.class);
-        i.putExtra("isTimeRace", false);
-        this.startActivity(i);
+        q = new QuestManager(this);
+        try {
+            q.startQuiz(false);
+        } catch (InvalidArgumentException e) {}
     }
 }

@@ -23,7 +23,6 @@ public class MCQActivity extends Activity implements View.OnClickListener {
     TextView mDesc;
     LinearLayout mAnswers;
     Button[] mButtons;
-    int mQuestNow;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

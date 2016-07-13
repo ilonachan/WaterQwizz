@@ -19,25 +19,25 @@
         <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Start Game"
+                android:text="@string/gameStart"
                 android:id="@+id/startButton" android:layout_gravity="center_horizontal" android:layout_weight="1"
                 android:background="@color/mainactivity_mainbg" android:textSize="27sp"/>
         <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Instructions"
+                android:text="@string/gameManual"
                 android:id="@+id/manualButton" android:layout_gravity="center_horizontal" android:layout_weight="1"
                 android:background="@color/mainactivity_mainbg" android:textSize="27sp"/>
         <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Scores"
+                android:text="@string/scoreTable"
                 android:id="@+id/scoretButton" android:layout_gravity="center_horizontal" android:layout_weight="1"
                 android:background="@color/mainactivity_mainbg" android:textSize="27sp"/>
         <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Options"
+                android:text="@string/settingsEntry"
                 android:id="@+id/settingsButton" android:layout_gravity="center_horizontal" android:layout_weight="1"
                 android:background="@color/mainactivity_mainbg" android:textSize="27sp"/>
     </LinearLayout>
