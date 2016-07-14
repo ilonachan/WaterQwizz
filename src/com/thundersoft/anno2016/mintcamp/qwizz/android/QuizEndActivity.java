@@ -6,6 +6,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import com.thundersoft.anno2016.mintcamp.qwizz.R;
 
 /**
  * @author fgast34

@@ -40,6 +40,10 @@ public abstract class GeneralQuest implements Serializable{
     public String getDescription() {
         return mDesc;
     }
+    public void setAnswered(boolean c){
+        mAnswered = true;
+        mCorrect = c;
+    }
 
     public void retry(){
         mAnswered = false;

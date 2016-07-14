@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.thundersoft.anno2016.mintcamp.qwizz.android"
+          package="com.thundersoft.anno2016.mintcamp.qwizz"
             android:versionCode="01"
             android:versionName="0.1 Beta 1">
     <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="22"/>
     <application android:icon="@drawable/icon" android:label="@string/app_name" android:allowBackup="true">
-        <activity android:name=".quests.MCQActivity" android:label="@string/mcquest"/>
-        <activity android:name=".quests.EstQActivity" android:label="@string/estquest"/>
-        <activity android:name=".QuizEndActivity"/>
-        <activity android:name=".MainActivity" android:label="@string/app_name">
+        <activity android:name=".android.quests.MCQActivity" android:label="@string/mcquest"/>
+        <activity android:name=".android.quests.EstQActivity" android:label="@string/estquest"/>
+        <activity android:name=".android.QuizEndActivity"/>
+        <activity android:name=".android.QuizRun"/>
+        <activity android:name=".android.MainActivity" android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".InstructActivity" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".android.InstructActivity" android:theme="@android:style/Theme.Dialog"/>
     </application>
 </manifest>

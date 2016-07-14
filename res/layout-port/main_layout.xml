@@ -27,7 +27,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/gameManual"
-                android:id="@+id/manualButton" android:layout_gravity="center_horizontal" android:layout_weight="1"
+                android:id="@+id/manualButton" android:layout_weight="1"
                 android:background="@color/mainactivity_mainbg" android:textSize="27sp"
                 android:textColor="@color/mainactivity_buttontextcolor"/>
         <Button

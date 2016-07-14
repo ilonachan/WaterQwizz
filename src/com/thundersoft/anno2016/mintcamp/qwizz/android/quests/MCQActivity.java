@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.thundersoft.anno2016.mintcamp.qwizz.android.R;
+import com.thundersoft.anno2016.mintcamp.qwizz.R;
 import com.thundersoft.anno2016.mintcamp.qwizz.quests.InvalidAnswerTypeException;
 import com.thundersoft.anno2016.mintcamp.qwizz.quests.InvalidArgumentException;
 import com.thundersoft.anno2016.mintcamp.qwizz.quests.MCQuest;
@@ -78,7 +78,7 @@ public class MCQActivity extends Activity implements View.OnClickListener {
         for(int i = 0; i < mButtons.length; i++) {
             if (view == mButtons[i]) {
                 Log.println(Log.ASSERT, "LogTag", "The " + (i + 1) + "th Button was pressed");
-                mButtons[selected].setBackgroundColor(getResources().getColor(R.color.mcactivity_answertextbg));
+                if(selected != -1) mButtons[selected].setBackgroundColor(getResources().getColor(R.color.mcactivity_answertextbg));
                 mButtons[i].setBackgroundColor(getResources().getColor(R.color.mcactivity_answertextbgc));
                 selected = i;
             }
