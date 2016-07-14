@@ -26,7 +26,7 @@ public class MCQActivity extends Activity implements View.OnClickListener {
     Button[] mButtons;
     Button Skip;
     Button Submit;
-    int selected;
+    int selected = -1;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -83,7 +83,7 @@ public class MCQActivity extends Activity implements View.OnClickListener {
                 selected = i;
             }
         }
-        if(view == Submit && selected > 0) {
+        if(view == Submit && selected > -1) {
             try {  quest.answer(selected+1);
             } catch (InvalidAnswerTypeException e) {
             } catch (InvalidArgumentException e2) {}
@@ -93,7 +93,7 @@ public class MCQActivity extends Activity implements View.OnClickListener {
             } else {
                 Toast.makeText(this,"Wrong :´(",Toast.LENGTH_LONG).show();
             }
-            setResult(RESULT_OK, new Intent().putExtra("hasAnsweredCorrect",quest.isAnswerCorrect()));
+            setResult(RESULT_OK, new Intent().putExtra("quest", quest));
             finish();
 
         }

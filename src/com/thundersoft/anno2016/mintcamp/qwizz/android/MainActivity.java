@@ -3,6 +3,7 @@ package com.thundersoft.anno2016.mintcamp.qwizz.android;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.*;
 import com.thundersoft.anno2016.mintcamp.qwizz.android.quests.EstQActivity;
@@ -86,8 +87,10 @@ public class MainActivity extends Activity implements View.OnClickListener{
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode == 29303) {
-            if(data.getBooleanExtra("hasAnsweredCorrect", false)) {
+            GeneralQuest qs = (GeneralQuest)data.getSerializableExtra("quest");
+            if(qs.isAnswerCorrect()) {
                 q.addScore();
+                q.putActual(qs);
             }
             proceedQuiz();
         }

@@ -65,7 +65,7 @@ public class EstQActivity extends Activity implements View.OnClickListener {
             } else {
                 Toast.makeText(this,"Too bad...\nThe value was: "+ quest.getExactAnswer(),Toast.LENGTH_LONG).show();
             }
-            setResult(RESULT_OK, new Intent().putExtra("hasAnsweredCorrect",quest.isAnswerCorrect()));
+            setResult(RESULT_OK, new Intent().putExtra("quest", quest));
             finish();
         }
     }

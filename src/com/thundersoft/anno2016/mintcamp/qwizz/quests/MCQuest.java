@@ -25,10 +25,16 @@ public class MCQuest extends GeneralQuest {
         }
     }
 
-    public MCQuest(String[] answers, int correctAnswer, String desc){
+    public MCQuest(String[] answers, int correctAnswer, String desc) {
+        this(answers, correctAnswer, desc, true);
+    }
+
+    public MCQuest(String[] answers, int correctAnswer, String desc, boolean mayShuffle){
         this.mAnswers = answers;
         this.mCorrectAnswer = correctAnswer;
         this.mDesc = desc;
+
+        shuffle();
     }
 
     public String[] getAnswers() {
@@ -45,5 +51,20 @@ public class MCQuest extends GeneralQuest {
         str += "Correct answer: "+mCorrectAnswer+"\n" +
                 (mAnswered?("Answer: "+mUserAnswer+", was "+(mCorrect?"":"in")+"correct"):"Not yet answered");
         return str;
+    }
+
+    protected void shuffle(){
+        for(int x = mAnswers.length - 1; x >= 0; x--) {
+            for(int y = 0; y < x; y++) {
+                if(Math.random() < 0.5) {
+                    String h = mAnswers[y];
+                    mAnswers[y] = mAnswers[y+1];
+                    mAnswers[y+1] = h;
+
+                    if(mCorrectAnswer == y+1) mCorrectAnswer = y+2;
+                    else if(mCorrectAnswer == y+2) mCorrectAnswer = y+1;
+                }
+            }
+        }
     }
 }

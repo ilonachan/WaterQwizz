@@ -15,6 +15,7 @@ public class QuestManager {
     private List<GeneralQuest> quests;
     private int score;
     private int mQuestIndex;
+    private GeneralQuest actual;
 
     public QuestManager() {
         quests = Arrays.asList(new GeneralQuest[]{
@@ -24,7 +25,7 @@ public class QuestManager {
                 new MCQuest(new String[]{"Wirtschaftsinformatik", "Volkswirtschaftslehre", "Betriebswirtschaftslehre"}, 2, "Welches Fach kann man an der FHDW nicht studieren?")
         });
 
-
+        loadQuestionsFromFile("");
 
 
 
@@ -37,6 +38,12 @@ public class QuestManager {
                 return r.nextInt(3)-1;
             }
         });
+    }
+
+    private void loadQuestionsFromFile(String s) {
+
+
+
     }
 
     public GeneralQuest getQuest(int index) {
@@ -64,7 +71,13 @@ public class QuestManager {
         GeneralQuest q;
         q = getQuest(mQuestIndex);
         mQuestIndex++;
+
+
         return q;
     }
 
+
+    public void putActual(GeneralQuest q) {
+        quests.set(mQuestIndex-1, q);
+    }
 }
