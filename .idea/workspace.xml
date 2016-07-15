@@ -54,38 +54,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c7fe7bc-5e1a-46b9-bd32-b895d501e82e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/screenshots/Screenshot_2016-07-15-12-09-09.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/wasser.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-port/answerdesc_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-port/cred_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/raw/questions_csv.old" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-de/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/UserManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/CreditsActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/quests/AnswerDescActivity.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/raw/questions.csv" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-ldpi/dimensions.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-mdpi/dimensions.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/dimensions.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-port/estq_layout.xml" afterPath="$PROJECT_DIR$/res/layout-port/estq_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-port/finish_layout.xml" afterPath="$PROJECT_DIR$/res/layout-port/finish_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-port/instr_layout.xml" afterPath="$PROJECT_DIR$/res/layout-port/instr_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-port/main_layout.xml" afterPath="$PROJECT_DIR$/res/layout-port/main_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-port/answerdesc_layout.xml" afterPath="$PROJECT_DIR$/res/layout-port/answerdesc_layout.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-port/mcq_layout.xml" afterPath="$PROJECT_DIR$/res/layout-port/mcq_layout.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/colors.xml" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/Main.java" afterPath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/User.java" afterPath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/QuizEndActivity.java" afterPath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/QuizEndActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/QuizRun.java" afterPath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/QuizRun.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/quests/EstQActivity.java" afterPath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/quests/EstQActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/quests/MCQActivity.java" afterPath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/quests/MCQActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/quests/EstQuest.java" afterPath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/quests/EstQuest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/quests/GeneralQuest.java" afterPath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/quests/GeneralQuest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/quests/MCQuest.java" afterPath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/quests/MCQuest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/quests/QuestManager.java" afterPath="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/quests/QuestManager.java" />
     </list>
     <ignored path="Qwizz Andy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -107,79 +82,98 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EstQActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/quests/EstQActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="95" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeneralQuest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/quests/GeneralQuest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EstQuest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/quests/EstQuest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="64" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
-              <folding>
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#911#912#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MCQuest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/quests/MCQuest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="65" column="23" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuestManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/quests/QuestManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="166" column="39" selection-start-line="166" selection-start-column="39" selection-end-line="166" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.87262356">
-              <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+            <state vertical-scroll-proportion="-17.0">
+              <caret line="26" column="56" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MCQActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/quests/MCQActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
+      <file leaf-file-name="mcq_layout.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout-port/mcq_layout.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
-              <folding>
-                <element signature="e#3889#3912#0" expanded="true" />
-              </folding>
+              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dimensions.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/dimensions.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.6666667">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dimensions.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values-mdpi/dimensions.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.0">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.3333333">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dimensions.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values-ldpi/dimensions.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="answerdesc_layout.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout-port/answerdesc_layout.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values-de/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.25">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.4736843">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="73" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -200,26 +194,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuizRun.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/QuizRun.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values-de/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.25">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -227,12 +201,12 @@
       <list>
         <option value="AndroidManifest" />
         <option value="default" />
-        <option value="valueResourceFile" />
         <option value="resourceFile" />
         <option value="layoutResourceFile_vertical" />
         <option value="Class" />
         <option value="package-info" />
         <option value="Activity" />
+        <option value="valueResourceFile" />
       </list>
     </option>
   </component>
@@ -244,7 +218,7 @@
       </map>
     </option>
     <push-targets>
-      <push-target-info repo="$PROJECT_DIR$" source="Test" target-remote="origin" target-branch="beta" />
+      <push-target-info repo="$PROJECT_DIR$" source="Test" target-remote="origin" target-branch="master" />
     </push-targets>
   </component>
   <component name="GradleLocalSettings">
@@ -255,7 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/my_first_layout.xml" />
         <option value="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/quests/InvalidArgumentException.java" />
         <option value="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/quests/ActivityChallenge.java" />
         <option value="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/quests/MainActivity.java" />
@@ -285,17 +258,14 @@
         <option value="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/quests/EstQuest.java" />
         <option value="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/quests/MCQuest.java" />
         <option value="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/Main.java" />
-        <option value="$PROJECT_DIR$/res/layout-port/answerdesc_layout.xml" />
         <option value="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/quests/AnswerDescActivity.java" />
         <option value="$PROJECT_DIR$/res/layout-port/finish_layout.xml" />
         <option value="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/QuizEndActivity.java" />
         <option value="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/UserManager.java" />
-        <option value="$PROJECT_DIR$/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/CreditsActivity.java" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout-port/main_layout.xml" />
         <option value="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/MainActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout-port/mcq_layout.xml" />
         <option value="$PROJECT_DIR$/res/layout-port/estq_layout.xml" />
         <option value="$PROJECT_DIR$/res/layout-port/instr_layout.xml" />
         <option value="$PROJECT_DIR$/res/values-de/strings.xml" />
@@ -305,6 +275,11 @@
         <option value="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/quests/MCQActivity.java" />
         <option value="$PROJECT_DIR$/res/layout-port/cred_layout.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/values/dimensions.xml" />
+        <option value="$PROJECT_DIR$/res/layout-port/mcq_layout.xml" />
+        <option value="$PROJECT_DIR$/res/values-mdpi-ldpi/dimensions.xml" />
+        <option value="$PROJECT_DIR$/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/res/layout-port/answerdesc_layout.xml" />
       </list>
     </option>
   </component>
@@ -477,6 +452,20 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Qwizz Andy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Qwizz Andy new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="values-de" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -549,20 +538,6 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Qwizz Andy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Qwizz Andy new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="drawable" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -617,11 +592,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="410328d24124603b" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_7_2012_API_19" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../WaterQuest" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="316" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -636,11 +612,11 @@
       <recent name="com.thundersoft.anno2016.mintcamp.qwizz.android" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\fgast\public\WaterQuest\Qwizz Andy new\res" />
       <recent name="H:\fgast\public\WaterQuest\Qwizz Andy new\res\drawable" />
       <recent name="H:\fgast\public\WaterQuest\Qwizz Andy new\res\layout-port" />
       <recent name="H:\fgast\public\WaterQuest\Qwizz Andy new\res\values" />
       <recent name="H:\fgast\public\fgast34\Qwizz Andy\res\layout-port" />
-      <recent name="H:\fgast\public\fgast34\Qwizz Andy\res\questions" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.thundersoft.anno2016.mintcamp.qwizz.android.quests" />
@@ -1032,7 +1008,13 @@
       <option name="project" value="LOCAL" />
       <updated>1468506969263</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Final Version - Presentation done, fixed some minor bugs. Ready for publishing!!!&#10;">
+      <created>1468590342673</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1468590342673</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1088,7 +1070,8 @@
     <MESSAGE value="It now works again, added new Quest type activity" />
     <MESSAGE value="Added Functionality for popup instruction window" />
     <MESSAGE value="User Support - Loads quests from file, crashes on start" />
-    <option name="LAST_COMMIT_MESSAGE" value="User Support - Loads quests from file, crashes on start" />
+    <MESSAGE value="Final Version - Presentation done, fixed some minor bugs. Ready for publishing!!!&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Version - Presentation done, fixed some minor bugs. Ready for publishing!!!&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1101,35 +1084,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/quests/QuestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values-de/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/quests/MCQuest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="28" />
-          <folding>
-            <element signature="e#1117#1118#0" expanded="false" />
-            <element signature="e#1180#1181#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1318,17 +1272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-port/answerdesc_layout.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/quests/AnswerDescActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1388,14 +1331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3333333">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/QuizEndActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1427,17 +1362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-port/mcq_layout.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/CreditsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1464,22 +1388,6 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5921054">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values-de/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.25">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1563,8 +1471,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87262356">
-          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+        <state vertical-scroll-proportion="-17.0">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-port/mcq_layout.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-de/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.25">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.4736843">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/dimensions.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6666667">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-mdpi/dimensions.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3333333">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-ldpi/dimensions.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-port/answerdesc_layout.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

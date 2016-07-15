@@ -12,7 +12,7 @@
             android:text="Description"
             android:id="@+id/desc"
             android:gravity="center"
-            android:textSize="32sp"
+            android:textSize="@dimen/button_text_size"
             android:layout_margin="20dp"
             android:textColor="@color/mcactivity_desctextcolor"
             android:background="@color/mcactivity_desctextbg" android:paddingTop="26dp" android:paddingBottom="26dp"
