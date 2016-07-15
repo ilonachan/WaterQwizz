@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/wasser">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView5"
+                android:src="@drawable/icon" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+                android:layout_marginTop="33dp"
+    
+                android:layout_gravity="center"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/createdBy"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:id="@+id/textView2"
+                android:layout_below="@+id/imageView5" android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp" android:layout_gravity="center" android:background="#bbffffff"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/theCreators"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:id="@+id/textView3"
+                android:layout_below="@+id/textView2" android:layout_centerHorizontal="true" android:gravity="center"
+                android:layout_gravity="center" android:background="#bbffffff"/>
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_below="@+id/textView3" android:layout_margin="20dp"
+                android:background="#bbffffff" android:padding="15dp"
+                android:layout_gravity="center">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView4"
+                    android:src="@drawable/logo_gladsoft"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp" android:layout_below="@+id/textView4"
+                    android:layout_alignParentLeft="true"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eine Entwicklung von:"
+                    android:id="@+id/textView4"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="40sp" android:textColor="@color/black"
+                    android:gravity="start"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

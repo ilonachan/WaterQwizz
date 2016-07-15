@@ -1,0 +1,103 @@
+param;Frage;Richtige Antwort a;Antwort b;Antwort c;Antwort d;Informationen
+param;Wasser weltweit;;;;;
+mcq;Welche Menge des gesamten Flusswassers der Erde führt der Amazonas mit sich?;Zwei Drittel;Ein Zehntel;Ein Drittel;Ein Hundertstel;Der zweitlängste Fluss der Erde nach dem Nil ist mit Abstand der wasserreichste. Zwei Drittel des gesamten Flusswassers der Erde durchströmen sein Becken, das knapp 40 Prozent des gesamten südamerikanischen Kontinents bedeckt.
+mcq;Wasserverbrauch weltweit: Schätzen Sie die globale Verteilung des Wasserverbrauchs zwischen Haushalten, Industrie und Landwirtschaft.;Landwirtschaft 69% Industrie 23% Haushalte 8%;Landwirtschaft 33% Industrie 540% Haushalte 13%;Landwirtschaft 50% Industrie 30% Haushalte 20%;Landwirtschaft 1% Industrie 920% Haushalte 7%;
+mcq;Wie viele Menschen haben weltweit keinen Zugang zu sauberem Trinkwasser?;1,2 Milliarden;5 Millionen;70 Millionen ;150.000;Sauberes Wasser, für uns selbstverständlich, für 1.200.000.000 Menschen nicht
+mcq;Durch welche Aktion wollte Umweltminister Klaus Töpfer 1988 angeblich beweisen, dass der Rhein nach einem Chemieunfall 1986 in Basel wieder sauber war?;Er schwamm durch den Rhein;Er kochte ein Menü mit Rheinwasser;Er trank ein Glas Wasser aus dem Rhein;Er nahm am Ufer des Rheins ein Bad im Rheinwasser;Die Aktion wurde in der Öffentlichkeit als Beweis dargestellt, dass die eilig getroffenen Schutzmaßnahmen für den Rhein bereits gegriffen hätten. Der wahre Hintergrund war jedoch lediglich eine verlorene Wette von Klaus Töpfer.
+mcq;Was taten die Bauern im alten Ägypten in der Zeit, in der sie auf die Überflutung ihrer Felder durch den Nil warteten?;Sie mussten beim Bau der Pyramiden mithelfen;Sie hatten frei und ließen es sich gut gehen;Sie gingen in der Regel einem Zweitjob nach;Sie waren in einer landwirtschaftlichen Verwaltungsbehörde beschäftigt;Die altägyptischen Bauern waren nur ein Teil des Jahres mit der Bewirtschaftung ihrer Felder beschäftigt. In der Trockenzeit konnten sie nichts tun. In dieser Zeit zogen sie die Pharaonen zu Frondiensten heran, darunter auch zum Bau der Pyramiden.
+mcq;Der indische Ganges ist einer der dreckigsten Flüsse der Welt. Wodurch wird er am meisten verschmutzt?;Durch Rckstände menschlicher Leichen;Durch industrielle Abwässer;Durch das bei Hindus zur Pflicht gehörende rituelle Bad im Fluss;Durch die Ausscheidungen der in Indien heiligen Khe;Nicht nur das Bad im Ganges ist Hindus heilig. Ferner glauben sie, dass ihre Seele befreit wird, wenn ihre Asche ber dem Ganges verstreut wird. Familien, die sich die teure Einäscherung nicht leisten können, bergeben ihre Toten direkt dem Ganges.
+mcq;Die chilenische Atacama-Wste ist die trockenste Wste der Welt. Wie versuchen die Bewohner des Dorfes Chunchungo am Rande der Wste, Trinkwasser zu gewinnen?;Durch das Einfangen von Wasser aus Nebel;Durch das Anzapfen wasserspeichernder Kakteen;Durch das Bohren des tiefsten Brunnens der Welt;Durch das Bauen der längsten Holzpipeline der Welt;Seit 1992 fangen die Bewohner des Dorfes in feinmaschigen Netzen den Nebel ein. Die Wassertropfen laufen in ein Auffangbecken und liefern jedem Einwohner etwa 20 Liter Trinkwasser am Tag.
+mcq;"Was forderte der australische Energieversorger ""Energy Australia"" 2006, um in dem traditionell regenarmen Land Wasser zu sparen?";Das Singen unter der Dusche zu verbieten;Komplett auf die Landwirtschaft zu verzichten;Den Ausschank von Leitungswasser in Restaurants zu verbieten;Auf jedes Rind eine Wassersteuer zu erheben;Nach Berechnungen des Energieversorgers verbringt ein Australier jeden Tag sieben Minuten unter der Dusche. Ohne zu singen wrden die Australier schneller duschen, könnten 100 Dollar im Jahr sparen und etwas gegen die Wasserverschwendung tun.
+mcq;Wie will der westafrikanische Senegal in Zukunft mehr Wasser fr seine Landwirtschaft bereitstellen?;Er will Wolken gezielt abregnen lassen;Er will mit Tankschiffen Wasser aus Europa importieren;Er will unterirdisch die Grundwasserreserven des wasserreicheren Nachbarlandes Guinea anzapfen;Er will eine Wasserpipeline zum Victoria-See in Ostafrika bauen;Im Senegal bilden sich zwar stets einige Wolken, doch es regnet nur selten. Theoretisch gibt es zwei Möglichkeiten, Wolken tatsächlich zum Regnen zu bringen. Wissenschaftler bezweifeln jedoch, dass dies tatsächlich gezielt möglich ist.
+mcq;Wie will die Stadt Los Angeles erreichen, dass ihre Brger weniger Wasser verbrauchen?;Durch Zuschsse auf den Kauf von Kunstrasen fr die Gärten;Durch einen automatischen Wasserstopp in jedem Haushalt bei zu viel Verbrauch;Durch das Schließen aller öffentlichen Schwimmbäder;Die Brger sollen ihre Pools nur zur Hälfte mit Wasser fllen drfen;Los Angeles versucht durch eine Reihe von Maßnahmen, die Brger zum Sparen zu ermuntern. Dazu gehören neben neuen Toilettensplungen in Restaurants auch finanzielle Zuschsse auf wassersparende Waschmaschinen und Kunstrasen.
+mcq;Warum standen die beiden 2010 eingeweihten Meerwasserentsalzungsanlagen auf Mallorca ein Jahr später schon wieder still?;Es fehlten die Abnehmer fr das entsalzte Wasser;Es fehlte bei beiden Anlagen eine Baugenehmigung;Die Anlagen wurden falsch gewartet und waren schon kaputt;Die Anlagen entsalzten das Meerwasser nicht richtig;Die in Andratx und Alc£dia erbauten Anlagen fanden keinen Abnehmer, weil es ab 2011 ein System zur Wiederverwertung von aufbereitetem Wasser in Hotels gab.
+mcq;Wie viele Menschen versorgt der Bodensee mit Trinkwasser?;vier Millionen Menschen;zwei Millionen Menschen;20 Millionen Menschen;500.000 Menschen;Vier Millionen Menschen bekommen ihr Leitungswasser vom Bodensee. Der Bodensee ist der größte Trinkwasserspeicher Europas.
+mcq;Wie weit geht man in Afrika durchschnittlich bis zur nächsten Wasserquelle?;6 Kilometer;500 Meter;1 Kilometer;4 Kilometer;Ganze 6.000 Meter mssen in Afrika durchschnittlich zum Wasserholen zurckgelegt werden.
+param;;;;;;
+param;Wasser allgemein;;;;;
+mcq;Was könnte in Zukunft einen Wassermangel auch in Deutschland bewirken?;Das Schmelzen der Gletscher in den Alpen;Das Absinken des Grundwasserspiegels;Das Austrocknen des Bodensees;Weniger Niederschläge durch die globale Erwärmumg;Die alpinen Gletscher sind eines der wichtigsten Wasserreservoire Mitteleuropas. Wenn die Gletscher aber durch den globalen Klimawandel immer weiter abschmelzen, werden vor allem die Flsse in Zukunft nicht mehr ausreichend mit Wasser gespeist.
+estq;Wasser ist die Grundlage allen Lebens. Selbst der Mensch besteht zum Teil aus Wasser. Weißt du, aus wie viel Prozent Wasser der Mensch besteht?;67;5;;;
+mcq;Wasser ist die Quelle der Gesundheit. Wie viele Liter Wasser sollte ein Mensch täglich zu sich nehmen?;2;0;;;Wir sollten täglich mindestens zwei Liter Wasser trinken, weil wir sonst austrocknen und unser Blut ?dick? wird. Das kann bedeuten, dass wir Kopfschmerzen oder Krämpfe bekommen und uns sehr müde fühlen.
+mcq;Wenn der Mensch zu wenig Wasser zu sich nimmt, steht er kurz vor der ... Wie nennt man die Austrocknung des Körpers?;Dehydrierung;Demontage;Drainage;Hydratation;
+estq;Wie viele Liter Wasser verschlingt ein 18-Loch-Golfplatz pro Tag?;2300000;500000;;;Ein durchschnittlicher 18-Loch-Golfplatz verschlingt 2,3 Millionen Liter am Tag.
+mcq;Wie viel Wasser verbraucht jeder Bundesbürger pro Tag ? zum Händewaschen, Duschen, Essen kochen oder fr die Waschmaschine?;130;260;50;190;
+mcq;Wann entstand das erste moderne Kanalisationsnetz Europas?;vor ungefähr 150 Jahren in Hamburg;vor 90 Jahren in Paris;vor 40 Jahren in Amsterdam;;Das erste moderne Kanalisationssystem in Europa wurde im Jahr 1856 in Hamburg gebaut. Die Römer haben aber schon vor mehr als 2 000 Jahren ein einfaches Kanalisationssystem entworfen.
+mcq;Wie wird das Wasser in Flüssen, Seen oder Gletschern genannt?;Süßwasser;Salzwasser;Kondenswasser;Dreckwasser;Wasser aus Flssen, Seen, Bächen wird als ?Sßwasser? bezeichnet. Dabei schmeckt es gar nicht sß. Sßwasser ist der Gegensatz zum Salzwasser, weil es kein Salz oder nur ganz wenig enthält. Auch das Eis in Gletschern ist Sßwasser. Es stellt sogar den größten Anteil des Sßwassers auf der Erde dar.
+mcq;Jeder kann Wasser sparen, aber wie?;Tropfende Wasserhähne abdichten, Duschen statt Baden, Wasserhahn abstellen beim Zähne putzen;WC-Splung immer zweimal betätigen, Abwasser in Kbeln aufheben;Nur einen Wasserhahn verwenden, zum Nachbarn gehen und Wasser holen;;
+estq;Wie viele Liter Wasser werden für die Herstellung eines Computers benötigt?;33000;5000;;;Das Äquivalent einer 46-Stunden-Dusche.
+param;;;;;;
+param;;;;;;
+param;Wasser Physik/Chemie;;;;;
+mcq;Wasser ist das Lebensmittel Nummer Eins: Trinkwasser ist lebensnotwenig. Dementsprechend zählt es zu den Lebensmitteln, die in ihrer Qualität streng überwacht werden. Über welche Eigenschaften verfügt das Wasser?;geruchlos, gschmacklos und farblos;Blau, kühl und teuer;voller Bakterien, kohlensäurehaltig, schmeckt sß;;
+mcq;Wie lautet die chemische Formel für Wasser?;H2O;CO2;NO2;H2O2;
+mcq;Welchen pH-Wert (Angabe für den Säuregrad einer Flüssigkeit) hat destilliertes (stark gefiltertes) Wasser?;7;3;10;14;
+mcq;Zu den wichtigsten Inhaltsstoffen von Wasser zählen?;Kalzium, Magnesium, Sulfate, Fluorid;Kalium, Chlorid, Natrium;Nitrat, Pestizide, Blei;;
+estq;Bei wie viel Grad kocht Wasser?;100;2;;;
+mcq;Was treibt den Wasserkreislauf an;Die Sonne;Der Mond;Der Wind;Die  Erdrotation;Die Sonne ist der Motor, der den Wasserkreislauf in Gang bringt. Durch die Sonnenwärme verdunstet Wasser, das als Wasserdampf aufsteigt und abkhlt, sich zu Wolken verdichtet und als Regen, Schnee oder Hagel wieder auf die Erde herabfällt.
+mcq;In welchem Wasser werden wir leicht nach oben getrieben?;im Meerwasser;im Mineralbad;im Schwimmbad;;Durch das Salz im Wasser erhöht sich die Dichte des Wassers. Das Wasser wird also schwerer und alles, was darin schwimmt, ist im Verhältnis dazu leichter. Darum fällt das Schwimmen im salzigen Meerwasser leichter als im ?normalen? Schwimmbad-Wasser.
+mcq;Virtuelles Wasser ist die Menge Wasser, die zum Beispiel in einem Lebensmittel enthalten ist und zu dessen Herstellung aufgewendet werden muss. In welchem dieser Lebensmittel steckt das meiste virtuelle Wasser?;1 Fast-Food-Men;1 Frhstcksei;2 Gläser Apfelsaft;2 Tomaten;
+mcq;Das meiste Sßwasser auf der Erde befindet sich ?;ÿals Eis an den Polkappen;in den Sßwasserseen im Kaukasus;ÿim Grundwasser;;
+mcq;Was ist ?virtuelles Wasser??;Wasser, das benötigt wird, um ein bestimmtes Produkt herzustellen;Scheinbar vorhandenes Wasser, das in Wsten durch ein Hitzeflimmern am Horizont erscheint.;Eine geheimnisvolle Flssigkeit der Elben, die in dem Fantasiebuch ?Der Herr der Ringe? von J.R. Tolkien erwähnt wird.;;
+mcq;Bei welcher Temperatur hat Wasser seine höchste Dichte?;4;100;0;-100;
+param;;;;;;
+param;Wasser Ökologie/?;;;;;
+mcq;Welches der folgenden Ökosysteme ist ein Fließgewässer?;Bach;Teich;Moor;See;
+mcq;Welches ist die artenreichste Tiergruppe in Fließgewässern und Auen?;Insekten;Vögel;Fische;Krebstiere;
+mcq;Fließgewässer sind wichtige Lebensräume fr viele Tierarten. Wo leben die meisten Tiere?;in und am Gewässergrund;am Ufer;auf der Wasseroberfläche;im fließenden Wasser;
+mcq;Woraus wird in Deutschland das meiste Trinkwasser gewonnen?;Grundwasser;Talsperren;Flssen;Meer;
+mcq;Welcher Industriezweig in Deutschland benötigt das meiste Wasser?;Energieversorgung;Papierindustrie;Kohlebergbau;Chemische Industrie;
+mcq;Wodurch ist die Qualität des Trinkwassers in Deutschland am meisten gefährdet?;Durch alte Bleirohre in den Haushalten;Durch Medikamentenrckstände, die nicht vollständig geklärt werden können;Durch falsche Beigabe von Mineralien in den Klärwerken;Durch Gllerckstände auf den Feldern, die ins Grundwasser gelangen;Die Trinkwasserqualität in Deutschland ist hervorragend. Die Verantwortung der Wasserwerke hört jedoch an der Haustr auf. Viele unsanierte Altbauten sind noch mit alten Bleirohren ausgestattet, deren Rckstände sich in Blut und Knochen ablagern können.
+mcq;Das europäische Gesetzeswerk, das fr einen guten ökologischen Zustand der Gewässer sorgen soll, heißt:; Europäische Wasserrahmenrichtlinie; Let-it-flow-Direktive ISO 2003/2;Lex aqua der europäischen Kommission;;
+mcq;Wie kann der Einfluss der Landwirtschaft auf die Gewässer gemindert werden?;Uferrandstreifen;Vegetarische Ernährung;Vertärkter Import von Fleisch;neue Tierrassen ;
+mcq;Welche Ziele verfolgt die Wasserrahmenrichtlinie?;Guten chemischen und Ökologischen Zustand;Trinkwasserqualität;Badegewässerqualität;Schiffbarkeit;
+mcq;"Was bedeutet der Begriff der ""Durchgängigkeit"" von Gewässersystemen?";Fr Gewässerorganismen durchschwimmbar;Fr Fußgänger und Radfahrer passierbar;mit Booten zu befahren;gute Randbedingungen fr Taucher;
+mcq;Was bewirkt ein erhöhter Nährstoffeintrag in Gewässer?;Eutrophierung;Das Wasser wird schwerer;der gute chemische Zustand ist nicht zu erreichen;das Gewässer hat  fr Fische besonders gute Bedingungen;
+mcq;Woher stammen Nährtoffeinträge in Gewässer?;Landwirtschaft;Khlwassereinleitungen;Bootstourismus;Wasserkraftnutzung;
+mcq;Welche Anforderungen sind an Wasserkraftanlagen an unseren Flssen zu stellen?;Fischschutz;Angelsteg;Blitzableiter;Webcam;
+param;;;;;;
+param;Große Dhnn-Talsperre;;;;;
+mcq;Wie viel mü Rohwasser können pro Jahr zur Trinkwasseraufbereitung aus der Großen Dhnn-Talsperre entnommen werden?;42 Mio. mü;10 Mio mü;22 Mio mü;37 Mio mü;
+mcq;Damit die Dhnn unterhalb der Staumauer nicht austrocknet, wird ein Mindesabfluss aus der Talsperre sichergestellt. Wie hoch liegt der am Pegel Manfort (Leverkusen)?;1,0 mü/s;1,8 mü/s;0,1 mü/s;5 mü/s;
+mcq;Wie viele Vorstauanlagen hat die Große Dhnn-Talsprerre?;17;3;15;34;
+mcq;Wozu dienen die Vorstauanlagen einer Talsperre?;Sie untersttzen den Gewässerschutz und dienen vor allem dem Schutz der an der Talsperre lebenden Tier- und Pflanzenarten;;;;
+mcq;Wie viel Wasser kann die Große Dhnn-Talsperre fassen?;81 Mio. mü;45 Mio mü;12,5 Mio mü;117 Mio mü;
+mcq;Wie viele Badewannen kann man mit dem Wasser der Großen Dhnn-Talsperre fllen?;578017;11730;468123;10168221;
+mcq;Wann wurde die Große Dhnn-Talsperre in Betrieb genommen?;1987;1975;1962;1933;
+mcq;Wie hoch ist der Staudamm von der Großen Dhnn-Talsperre von der Sohle bis zur Dammkrone?;57 m;23 m;35 m;46 m;
+mcq;Das Stauziel der Talsperre liegt auf wie viel Metern ber N.N.?;176,5  m .N.N.;288,2  m .N.N.;57  m .N.N.;217,9  m .N.N.;
+mcq;Wie hoch ist der Rohwasserentnahmeturm?;66 m;46 m;37 m;53 m;
+mcq;Wie groß ist das Einzugsgebiet der Großen Dhnn-Talsperre einschl. der Slz?;89 Kmý;60 Kmý;37 Kmý;75 Kmý;
+mcq;Wenn die Talsperre gefllt ist. Wie groß ist dann ihre Staufläche?;440 ha;10.000 mý;1,3 Kmý;900 ha;
+mcq;Wie hoch kann das Wasser in der Talsperre gestaut werden?;53 m;17 m;33 m;49 m;
+mcq;Der Staudamm an eine Kronenbreite von 8,5 m. Wie breit ist er an der Sohle?;210 m;14,5 m;47 m;98 m;
+mcq;Wie wird das Wasser genannt, dass der aus der Talsperre entnommen und zu Trinkwasser aufbereitet wird?;Rohwasser;Sprudelwasser;Reinwasser;Grundwasser;
+mcq;Die Dhnn ist der längste Nebenfluss der Wupper. Wie lang ist sie genau?;40 Km;67 Km;23 Km;38 Km;
+mcq;In welchen Fluss mndet die Dhnn?;Wupper;Rhein;Strunde;Eifgenbach;
+mcq;Wie heißt der hier gezeigte, längste Nebenfluss der Dhnn?;Eifgenbach;Linnefe;Leimbach;Scherfbach;
+mcq;Welchen Höhenunterschied muss man berwinden, wenn man von der Mndung der Dhnn bis Quelle wandern?;274 m;313 m;343 m;298 m;
+mcq;Die Große Dhnn-Talsperre ist die zweitgrößte Trinkwassertalsperre Deutschlands. Wie heißt die Größte?;Rappbode-Talsperre;Neyetalsperre;Rurtalsperre;Möhnetalsperre;
+mcq;Wie viel Wasser verliert die Große Dhnn-Talsperre jährlich durch Verdunstung und Versickerung?;6 Mio mü;2,3 Mio mü;1,5 Mio mü;4,5 Mio mü;
+mcq;Schirpendhnn, Kotterlinde und Strnken sind?;Versunkene Orte in der Talsperre;Bergische Schimpfwörter ;Baumarten;Alte Familienamen aus dem Dhnntal;
+mcq;Warum ist die Fischartenzusammensetzung unterhalb der Großen Dhnn-Talsperre nicht so, wie die Biologen sich das vorstellen?;Wasser ist zu kalt;Wasser ist zu warm;Chemie ungnstig;Nahrungsangebot ungnstig;
+mcq;Welche Gegensteuerungsmaßnahme ist derzeit an der Großen Dhnn-Talsperre im Bau, um die Fischartenzusammensetzung unterhalb derTalsperre  in der Dhnn zu beeinflussen?;Thermorssel;Geothermieanlage;Elefantenrssel;Windkraftanlage;
+param;;;;;;
+param;;;;;;
+param;Medienfragen mit Bildern: ;;;;;Bildname
+mcqpic;Wie hoch ist der Rohwasserentnahmeturm der Großen Dhnn-Talsperre?;66 m;46 m;37 m;53 m;2011_09_26_0073
+mcqpic;Welchen Durchmesser hat der Hochwasserentlastungsturm mit Überfalltrichter?;20 m;15 m;7,5 m;12,80 m;P1010039
+mcqpic;Wie heißt der hier gezeigte, längste Nebenfluss der Dhnn?;Eifgenbach;Linnefe;Leimbach;Scherfbach;DSC_0216
+mcqpic;"Wofr wird die so genannte ""Pegelstrecke"" benötigt?";Messung des Abflusses der Dhnn;Zählstation fr Lachse;Temperaturerhöhung der Dhnn;Kanalisierung des Flussbetts;DSC_0030
+mcqpic;An welchem Fluss liegt die Markusmhle?;Eifgenbach;Strunde;Dhnn;Wupper;Markusmhle Dabringhausen 1932
+mcqpic;Die Nutzung der Wasserkraft hat im Bergischen lange Tradition. Welche Mhle wird hier gezeigt?;Rausmhle;Neuemhle;Markusmhle;Coenenmhle;Rausmhle Wermelskirchen 1967
+mcqpic;Talsperren sind anspruchsvolle Ingenieurbauwerke, die starke Eingriffe in die Naturlandschaft vornehmen.  Welcher Teil der Talsperre wird hier gezeigt?;Der Überlauf Vorsperre Kleine Dhn - Dhnntalsperre ;Eine Fischaufstiegsanlage fr Lachse;Der Notberlauf am Staudamm;"Das Flusskunstwerk ""Streuung""";Überlauf Vorsperre Kleine Dhn - Dhnntalsperre 1992
+mcqpic;Bevor die Große Dhnn-Talsperre seid 1975 gebaut wurde, gab es im Dhnntal bereits eine Talsperre. Wie heißt diese Talsperre, die auf auf dem Bild gezigt wird, heute?;Vorsperre Große Dhnn;Kleine Dhnntalsperre;Alte Dhnntalsperre;Vorbecken;Vorsperre Große Dhnn_1962
+mcqpic;Das Stauziel der Talsperre liegt auf wie viel Metern ber N.N.?;176,5  m .N.N.;288,2  m .N.N.;57  m .N.N.;217,9  m .N.N.;1987_stauziel
+mcqpic;Wie viele Vorstauanlagen hat die Große Dhnn-Talsprerre?;17;3;15;34;2011_09_26_0040
+mcqpic;Wozu dienen die Vorstauanlagen einer Talsperre?;Sie untersttzen den Gewässerschutz und dienen vor allem dem Schutz der an der Talsperre lebenden Tier- und Pflanzenarten;;;;2011_09_26_0040
+mcqpic;Wie hoch ist der Staudamm von der Großen Dhnn-Talsperre von der Sohle bis zur Dammkrone?;57 m;23 m;35 m;46 m;2011_09_26_0088
+mcqpic;"Dieses Haus an der Dhnn zeigt den ""Bergischen Dreiklang"". Was bedeutet das?";Kombination aus  schwarzen Fachwerkbalken, weißen Gefachen und grnen Holzschlagläden.;Nicht waagerecht, nicht senkrecht und kein 90ø Winkel.;;;DSC_0159
+mcqpic;In welcher Kommune liegt die Quelle der Dhnn?;Wipperfrth;Hckeswagen;Krten;Wermelskirchen;DSC_0008
+mcqpic;Welche Funktion ber dieses Trichter-Bauwerk in der Großen Dhnn-Talsperre aus?;Hochwasserentlastung;Verstärkung von akustischen Schwingungen;Messtrichter fr Niederschläge;Kunst am Bau;Dhnn-1_ermann A. Wiese
+mcqpic;Die hier gezeigte Loosenau ist eine ehemalige Pulvermhle. Was wurde hier hergestellt?;Schießpulver;Mehl;Dnger;Waschmittel;DSC_0022
+mcqpic;Welches der vier Fotos zeigt die Große Dhnn-Talsperre?;gr-dhuenn-tsp_mai-2005;brucher-tsp_mai-2005_luftb;bever-tsp_mai-2005_luftb;lingese-tsp_mai-2005_luftb;
+mcqpic;Das hier gezeigte Tosbecken hat welche Funktion?;Verzögerung der Strömung;Schalldämpfung ;Aufenthaltszone fr die Wanderfische (Lachse);Auflösung von Strudeln im Wasser;2011_09_26_0094

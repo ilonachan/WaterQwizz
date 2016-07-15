@@ -10,4 +10,19 @@
     <string name="skip">Skip</string>
     <string name="submit">Submit</string>
     <string name="cancel">Cancel</string>
+    <string name="yourest">Your estimation</string>
+    <string name="evalStr" formatted="false">You have finished\n%d of %d Quests successfully!</string>
+    <string name="tapanywhere">Tap anywhere to continue</string>
+    <string name="continueButton">Continue</string>
+    <string name="buttonClose">Close</string>
+    <string name="feedback1">Oh, No!</string>
+    <string name="feedback2">Good!</string>
+    <string name="feedback3">Great!</string>
+    <string name="feedback4">Fantastic!</string>
+    <string name="gamerSc">Your Gamerscore after this\nround is %d</string>
+    <string name="credits">Credits</string>
+    <string name="createdBy">Created By:</string>
+    <string name="theCreators">Anton Schlömer\nAshley Hillebrand\nTimo Kalker\nMarius Gleißner</string>
+    <string name="instructionText">This is actually an Activity!</string>
+
 </resources>

@@ -1,6 +1,6 @@
 package com.thundersoft.anno2016.mintcamp.qwizz;
 
-import com.thundersoft.anno2016.mintcamp.qwizz.android.quests.QuestManager;
+import com.thundersoft.anno2016.mintcamp.qwizz.quests.QuestManager;
 
 import java.io.Serializable;
 

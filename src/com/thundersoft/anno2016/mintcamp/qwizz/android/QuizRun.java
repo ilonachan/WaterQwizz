@@ -6,7 +6,7 @@ import android.os.Bundle;
 import com.thundersoft.anno2016.mintcamp.qwizz.User;
 import com.thundersoft.anno2016.mintcamp.qwizz.android.quests.EstQActivity;
 import com.thundersoft.anno2016.mintcamp.qwizz.android.quests.MCQActivity;
-import com.thundersoft.anno2016.mintcamp.qwizz.android.quests.QuestManager;
+import com.thundersoft.anno2016.mintcamp.qwizz.quests.QuestManager;
 import com.thundersoft.anno2016.mintcamp.qwizz.quests.EstQuest;
 import com.thundersoft.anno2016.mintcamp.qwizz.quests.GeneralQuest;
 import com.thundersoft.anno2016.mintcamp.qwizz.quests.MCQuest;
@@ -60,6 +60,7 @@ public class QuizRun extends Activity {
         this.startActivity(i);
 
         mManager.manageElo(score,mManager.getNumberOfQuests(),1);
+        setResult(RESULT_OK, new Intent().putExtra("user",user));
         finish();
     }
 
@@ -68,6 +69,13 @@ public class QuizRun extends Activity {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode == 29303) {
             GeneralQuest qs = (GeneralQuest)data.getSerializableExtra("quest");
+
+            if(!qs.hasUserAnswered()) {
+                mManager.skipQuest();
+                proceedQuiz();
+                return;
+            }
+
             if(qs.isAnswerCorrect()) {
                 score++;
             }

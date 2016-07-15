@@ -16,13 +16,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="You have finished\n%d of %d Quests successfully!"
+            android:text="@string/evalStr"
             android:id="@+id/evaluationString" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
             android:textSize="35sp" android:textAlignment="center" android:gravity="center"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tap anywhere to continue"
+            android:text="@string/tapanywhere"
             android:id="@+id/textView" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
             android:layout_alignParentEnd="false" android:layout_marginBottom="15dp" android:textSize="25sp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/gamerSc"
+              android:id="@+id/gamerSc"
+              android:textSize="35sp" android:textAlignment="center"
+              android:gravity="center"
+              android:layout_below="@+id/evaluationString" android:layout_alignParentLeft="true"
+              android:layout_alignParentStart="true" android:layout_marginTop="70dp"/>
 </RelativeLayout>

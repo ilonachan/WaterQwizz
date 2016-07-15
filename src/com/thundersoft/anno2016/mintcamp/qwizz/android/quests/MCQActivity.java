@@ -1,6 +1,7 @@
 package com.thundersoft.anno2016.mintcamp.qwizz.android.quests;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -76,26 +77,53 @@ public class MCQActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         for(int i = 0; i < mButtons.length; i++) {
-            if (view == mButtons[i]) {
+            if (view == mButtons[i] && !quest.hasUserAnswered()) {
                 Log.println(Log.ASSERT, "LogTag", "The " + (i + 1) + "th Button was pressed");
                 if(selected != -1) mButtons[selected].setBackgroundColor(getResources().getColor(R.color.mcactivity_answertextbg));
                 mButtons[i].setBackgroundColor(getResources().getColor(R.color.mcactivity_answertextbgc));
                 selected = i;
             }
         }
+
+        Activity c = this;
+
         if(view == Submit && selected > -1) {
             try {  quest.answer(selected+1);
             } catch (InvalidAnswerTypeException e) {
             } catch (InvalidArgumentException e2) {}
 
             if (quest.isAnswerCorrect()){
-                Toast.makeText(this,"Correct!!!",Toast.LENGTH_LONG).show();
+                mButtons[selected].setBackgroundColor(getResources().getColor(R.color.green));
+                mDesc.setText("Correct!!!");
             } else {
-                Toast.makeText(this,"Wrong :´(",Toast.LENGTH_LONG).show();
+                mButtons[selected].setBackgroundColor(getResources().getColor(R.color.red));
+                mButtons[quest.getCorrect()-1].setBackgroundColor(getResources().getColor(R.color.green));
+                mDesc.setText("Wrong :´(");
             }
-            setResult(RESULT_OK, new Intent().putExtra("quest", quest));
-            finish();
 
+            mDesc.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(c, AnswerDescActivity.class).putExtra("desc",quest.getExtra()));
+                }
+            });
+
+            Submit.setText(R.string.continueButton);
+            Submit.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    c.setResult(RESULT_OK, new Intent().putExtra("quest", quest));
+                    c.finish();
+                }
+            });
         }
+        if(view == Skip) {
+            c.setResult(RESULT_OK, new Intent().putExtra("quest", quest));
+            c.finish();
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
     }
 }

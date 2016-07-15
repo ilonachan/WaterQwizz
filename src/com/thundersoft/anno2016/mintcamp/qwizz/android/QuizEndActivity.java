@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import com.thundersoft.anno2016.mintcamp.qwizz.R;
+import com.thundersoft.anno2016.mintcamp.qwizz.User;
 
 /**
  * @author fgast34
@@ -16,24 +17,31 @@ public class QuizEndActivity extends Activity implements View.OnTouchListener{
 
     int score;
     int total;
+    User gamer;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         score = getIntent().getIntExtra("playerScore", 0);
         total = getIntent().getIntExtra("totalQuests", 10);
+        gamer = (User) getIntent().getSerializableExtra("user");
+        int gamerSc = gamer.getElo();
         setContentView(R.layout.finish_layout);
 
         double frac = (double)score / (double) total;
-        String feedback = "Good!";
-        if(frac <= 0.15) feedback = "Oh, No!";
-        if(frac >= 0.55) feedback = "Great!";
-        if(frac >= 0.9) feedback = "Fantastic!";
+        int feedback = R.string.feedback2;
+        if(frac <= 0.15) feedback = R.string.feedback1;
+        if(frac >= 0.55) feedback = R.string.feedback3;
+        if(frac >= 0.9) feedback = R.string.feedback4;
         TextView t = (TextView) findViewById(R.id.feedback);
         t.setText(feedback);
 
         t = (TextView) findViewById(R.id.evaluationString);
         String form = (String) t.getText();
         t.setText(String.format(form, score, total));
+
+        t = (TextView) findViewById(R.id.gamerSc);
+        form = (String) t.getText();
+        t.setText(String.format(form, gamerSc));
 
 
 

@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.*;
-import com.thundersoft.anno2016.mintcamp.qwizz.android.R;
+import com.thundersoft.anno2016.mintcamp.qwizz.R;
 import com.thundersoft.anno2016.mintcamp.qwizz.quests.EstQuest;
 import com.thundersoft.anno2016.mintcamp.qwizz.quests.InvalidAnswerTypeException;
 import com.thundersoft.anno2016.mintcamp.qwizz.quests.InvalidArgumentException;
@@ -53,6 +53,9 @@ public class EstQActivity extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(View view) {
+
+        Activity c = this;
+
         if(view == Submit) {
             try {  quest.answer(Integer.parseInt(input.getText().toString()));
             } catch (InvalidAnswerTypeException e) {
@@ -61,12 +64,34 @@ public class EstQActivity extends Activity implements View.OnClickListener {
             } catch (InvalidArgumentException e2) {}
 
             if (quest.isAnswerCorrect()){
-                Toast.makeText(this,"Very good!\nThe value was: "+ quest.getExactAnswer(),Toast.LENGTH_LONG).show();
+                mDesc.setText("Very good!\nThe value was: "+ quest.getExactAnswer());
             } else {
-                Toast.makeText(this,"Too bad...\nThe value was: "+ quest.getExactAnswer(),Toast.LENGTH_LONG).show();
+                mDesc.setText("Too bad...\nThe value was: "+ quest.getExactAnswer());
             }
-            setResult(RESULT_OK, new Intent().putExtra("quest", quest));
-            finish();
+
+            mDesc.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(c, AnswerDescActivity.class).putExtra("desc",quest.getExtra()));
+                }
+            });
+
+            Submit.setText(R.string.continueButton);
+            Submit.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    c.setResult(RESULT_OK, new Intent().putExtra("quest", quest));
+                    c.finish();
+                }
+            });
         }
+        if(view == Skip) {
+            c.setResult(RESULT_OK, new Intent().putExtra("quest", quest));
+            c.finish();
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
     }
 }

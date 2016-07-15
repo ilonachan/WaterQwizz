@@ -1,13 +1,23 @@
 package com.thundersoft.anno2016.mintcamp.qwizz.android;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.Preference;
+import android.util.Log;
 import android.view.View;
 import android.widget.*;
 import com.thundersoft.anno2016.mintcamp.qwizz.R;
 import com.thundersoft.anno2016.mintcamp.qwizz.User;
-import com.thundersoft.anno2016.mintcamp.qwizz.android.quests.QuestManager;
+import com.thundersoft.anno2016.mintcamp.qwizz.UserManager;
+import com.thundersoft.anno2016.mintcamp.qwizz.quests.QuestManager;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
 
 
 /**
@@ -16,6 +26,7 @@ import com.thundersoft.anno2016.mintcamp.qwizz.android.quests.QuestManager;
  */
 public class MainActivity extends Activity implements View.OnClickListener{
 
+    UserManager userManager;
     Button[] mMenuButtons;
     QuestManager q;
     public static Activity a;
@@ -25,15 +36,26 @@ public class MainActivity extends Activity implements View.OnClickListener{
         super.onCreate(savedInstanceState);
         a=this;
         setContentView(R.layout.main_layout);
-        mMenuButtons = new Button[4];
+        mMenuButtons = new Button[3];
         mMenuButtons[0] = (Button) findViewById(R.id.startButton);
         mMenuButtons[1] = (Button) findViewById(R.id.manualButton);
-        mMenuButtons[2] = (Button) findViewById(R.id.scoretButton);
-        mMenuButtons[3] = (Button) findViewById(R.id.settingsButton);
+        mMenuButtons[2] = (Button) findViewById(R.id.creditsButton);
+//        mMenuButtons[3] = (Button) findViewById(R.id.settingsButton);
 
         for (Button mMenuButton : mMenuButtons) {
             mMenuButton.setOnClickListener(this);
         }
+
+        userManager = readUsersFromConfig();
+    }
+
+    private UserManager readUsersFromConfig() {
+
+        /*try (FileInputStream fis = openFileInput("userdata.obj")){
+        } catch (IOException e) {
+            Log.e("LogTag", e.getMessage());
+        }*/
+        return new UserManager("Test");
     }
 
     @Override
@@ -48,8 +70,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
                         this.startActivity(new Intent(this, InstructActivity.class));
                         break;
                     case 2:
-                        break;
-                    case 3:
+                        this.startActivity(new Intent(this, CreditsActivity.class));
                         break;
                 }
             }
@@ -57,6 +78,13 @@ public class MainActivity extends Activity implements View.OnClickListener{
     }
 
     public void startQuiz(boolean isTimeRace) {
-        this.startActivity(new Intent(this, QuizRun.class).putExtra("user", new User("Testy")/*UserManager.getCurrent()*/));
+        this.startActivityForResult(new Intent(this, QuizRun.class).putExtra("user", userManager.getCurrent()),0x28bca406);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode != 0x28bca406) return;
+        this.userManager.editCurrent((User) data.getSerializableExtra("user"));
     }
 }

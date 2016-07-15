@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WaterQuest</string>
+    <string name="mcquest">MultipleChoice-Aufgabe</string>
+    <string name="estquest">Schätzfrage</string>
+    <string name="gameStart">Spielstart</string>
+    <string name="gameManual">Anleitung</string>
+    <string name="scoreTable">Bestenliste</string>
+    <string name="settingsEntry">Optionen</string>
+    <string name="skip">Weiter</string>
+    <string name="submit">Einloggen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="yourest">Deine Schätzung</string>
+    <string name="evalStr" formatted="false">Du hast gerade\n%d von %d Aufgaben bestanden!</string>
+    <string name="tapanywhere">Tippe, um fortzufahren</string>
+    <string name="continueButton">Fortfahren</string>
+    <string name="buttonClose">Schließen</string>
+    <string name="feedback1">Oh Nein!</string>
+    <string name="feedback2">Gut!</string>
+    <string name="feedback3">Super!</string>
+    <string name="feedback4">Fantastisch!</string>
+    <string name="gamerSc">Deine Gamerscore nach dieser\nRunde ist %d</string>
+    <string name="credits">Impressum</string>
+    <string name="createdBy">Erstellt von:</string>
+    <string name="instructionText">Willkommen zu "WaterQuest"!</string>
+
+</resources>

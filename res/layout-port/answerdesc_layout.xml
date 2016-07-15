@@ -7,12 +7,11 @@
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/instructionText"
-            android:id="@+id/textView2" android:layout_gravity="center_horizontal"/>
+            android:text="New Text"
+            android:id="@+id/ExtraDescField" android:layout_gravity="center_horizontal" android:textSize="30sp"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/buttonClose"
-            android:id="@+id/dialogCloseButton" android:layout_gravity="center_horizontal"/>
+            android:id="@+id/buttonClose" android:layout_gravity="center_horizontal"/>
 </LinearLayout>

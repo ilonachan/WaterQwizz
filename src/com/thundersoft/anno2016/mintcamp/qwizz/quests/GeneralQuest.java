@@ -17,6 +17,7 @@ public abstract class GeneralQuest implements Serializable{
     protected boolean mAnswered;
     protected Object mUserAnswer;
     protected String mDesc;
+    protected String mExtra;
 
     /**
      * The method handles the request of the user to answer the question.
@@ -49,5 +50,14 @@ public abstract class GeneralQuest implements Serializable{
         mAnswered = false;
         mCorrect = false;
         mUserAnswer = null;
+    }
+
+    public String getExtra() {
+        return mExtra;
+    }
+
+    public GeneralQuest(String desc, String extra) {
+        this.mDesc = desc;
+        this.mExtra = extra;
     }
 }

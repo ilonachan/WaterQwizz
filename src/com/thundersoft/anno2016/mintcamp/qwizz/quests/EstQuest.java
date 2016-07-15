@@ -26,13 +26,13 @@ public class EstQuest extends GeneralQuest{
         }
     }
 
-    public EstQuest(int correctAnswer, String desc) {
-        this(correctAnswer,desc, 5);
+    public EstQuest(int correctAnswer, String desc, String extra) {
+        this(correctAnswer,desc, extra, 5);
     }
 
-    public EstQuest(int correctAnswer, String desc, int tol) {
+    public EstQuest(int correctAnswer, String desc, String extra, int tol) {
+        super(desc, extra);
         this.mCorrectAnswer = correctAnswer;
-        this.mDesc = desc;
         this.mTolerance = tol;
     }
 

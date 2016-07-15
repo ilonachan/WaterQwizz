@@ -9,6 +9,12 @@ public class MCQuest extends GeneralQuest {
     private int mCorrectAnswer;
     private String[] mAnswers;
 
+    public int getCorrect() {
+        if(hasUserAnswered())
+            return mCorrectAnswer;
+        return 0;
+    }
+
     @Override
     public boolean answer(Object answer) throws InvalidAnswerTypeException, InvalidArgumentException {
         if (mAnswered)
@@ -25,16 +31,17 @@ public class MCQuest extends GeneralQuest {
         }
     }
 
-    public MCQuest(String[] answers, int correctAnswer, String desc) {
-        this(answers, correctAnswer, desc, true);
+    public MCQuest(String[] answers, int correctAnswer, String desc, String extra) {
+        this(answers, correctAnswer, desc, extra, true);
     }
 
-    public MCQuest(String[] answers, int correctAnswer, String desc, boolean mayShuffle){
+    public MCQuest(String[] answers, int correctAnswer, String desc, String extra, boolean mayShuffle){
+        super(desc, extra);
         this.mAnswers = answers;
         this.mCorrectAnswer = correctAnswer;
         this.mDesc = desc;
 
-        shuffle();
+        if(mayShuffle)shuffle();
     }
 
     public String[] getAnswers() {

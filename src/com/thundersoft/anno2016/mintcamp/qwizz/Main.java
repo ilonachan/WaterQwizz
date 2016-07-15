@@ -11,10 +11,10 @@ import java.util.List;
 public final class Main {
 
     private static List<GeneralQuest> quests = Arrays.asList(new GeneralQuest[]{
-        new MCQuest(new String[]{"10:00 Uhr", "10:30 Uhr", "11:00 Uhr"},2,"Um wie viel Uhr startet das SummerCamp?"),
-        new EstQuest(150,"Wieviele Minuten arbeiten wir hier nun schon?",10),
-        new MCQuest(new String[]{"Deutschland","Italien","Frankreich","Portugal"},4,"Wer ist Europameister 2016?"),
-        new MCQuest(new String[]{"Wirtschaftsinformatik","Volkswirtschaftslehre","Betriebswirtschaftslehre"},2,"Welches Fach kann man an der FHDW nicht studieren?")
+        new MCQuest(new String[]{"10:00 Uhr", "10:30 Uhr", "11:00 Uhr"},2,"Um wie viel Uhr startet das SummerCamp?",null),
+        new EstQuest(150,"Wieviele Minuten arbeiten wir hier nun schon?",null,10),
+        new MCQuest(new String[]{"Deutschland","Italien","Frankreich","Portugal"},4,"Wer ist Europameister 2016?",null),
+        new MCQuest(new String[]{"Wirtschaftsinformatik","Volkswirtschaftslehre","Betriebswirtschaftslehre"},2,"Welches Fach kann man an der FHDW nicht studieren?",null)
     });
 
     private Main(){}
