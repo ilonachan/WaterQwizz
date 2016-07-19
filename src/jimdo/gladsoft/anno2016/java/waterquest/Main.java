@@ -1,8 +1,10 @@
-package com.thundersoft.anno2016.mintcamp.qwizz;
+package jimdo.gladsoft.anno2016.java.waterquest;
 
-import com.thundersoft.anno2016.mintcamp.qwizz.quests.*;
+import jimdo.gladsoft.anno2016.java.waterquest.quests.*;
+
 import java.util.Arrays;
 import java.util.List;
+
 
 /**
  * @author fgast34

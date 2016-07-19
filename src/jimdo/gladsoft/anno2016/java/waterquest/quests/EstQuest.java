@@ -1,6 +1,4 @@
-package com.thundersoft.anno2016.mintcamp.qwizz.quests;
-
-import java.io.Serializable;
+package jimdo.gladsoft.anno2016.java.waterquest.quests;
 
 /**
  * @author fgast34
@@ -8,17 +6,17 @@ import java.io.Serializable;
  */
 public class EstQuest extends GeneralQuest{
 
-    private int mCorrectAnswer;
-    private int mTolerance;
+    private float mCorrectAnswer;
+    private float mTolerance;
 
     @Override
     public boolean answer(Object answer) throws InvalidAnswerTypeException, InvalidArgumentException {
         if (mAnswered)
             return isAnswerCorrect();
-        if (answer instanceof Integer) {
+        if (answer instanceof Float) {
             this.mUserAnswer = answer;
             this.mAnswered = true;
-            int diff = Math.abs(mCorrectAnswer - (Integer)answer);
+            float diff = Math.abs(mCorrectAnswer - (Float)answer);
             this.mCorrect = (diff < mTolerance);
             return mCorrect;
         } else {
@@ -26,23 +24,31 @@ public class EstQuest extends GeneralQuest{
         }
     }
 
-    public EstQuest(int correctAnswer, String desc, String extra) {
-        this(correctAnswer,desc, extra, 5);
+    public EstQuest(float correctAnswer, String desc, String extra) {
+        this(correctAnswer,desc, extra, null);
     }
 
-    public EstQuest(int correctAnswer, String desc, String extra, int tol) {
-        super(desc, extra);
+    public EstQuest(float correctAnswer, String desc, String extra, String category) {
+        this(correctAnswer,desc,extra,5,category);
+    }
+
+    public EstQuest(float correctAnswer, String desc, String extra, float tol) {
+        this(correctAnswer,desc,extra,tol,null);
+    }
+
+    public EstQuest(float correctAnswer, String desc, String extra, float tol, String category) {
+        super(desc, extra, category);
         this.mCorrectAnswer = correctAnswer;
         this.mTolerance = tol;
     }
 
-    public int getExactAnswer() {
+    public float getExactAnswer() {
         if(mAnswered)
             return mCorrectAnswer;
         return 0;
     }
 
-    public int getTolerance(){
+    public float getTolerance(){
         return mTolerance;
     }
 

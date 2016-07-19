@@ -1,4 +1,4 @@
-package com.thundersoft.anno2016.mintcamp.qwizz.android.quests;
+package jimdo.gladsoft.anno2016.java.waterquest.android.quests;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,11 +6,10 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.*;
-import com.thundersoft.anno2016.mintcamp.qwizz.R;
-import com.thundersoft.anno2016.mintcamp.qwizz.quests.EstQuest;
-import com.thundersoft.anno2016.mintcamp.qwizz.quests.InvalidAnswerTypeException;
-import com.thundersoft.anno2016.mintcamp.qwizz.quests.InvalidArgumentException;
-import com.thundersoft.anno2016.mintcamp.qwizz.quests.MCQuest;
+import jimdo.gladsoft.anno2016.java.waterquest.R;
+import jimdo.gladsoft.anno2016.java.waterquest.quests.EstQuest;
+import jimdo.gladsoft.anno2016.java.waterquest.quests.InvalidAnswerTypeException;
+import jimdo.gladsoft.anno2016.java.waterquest.quests.InvalidArgumentException;
 
 /**
  * @author fgast34
@@ -57,7 +56,7 @@ public class EstQActivity extends Activity implements View.OnClickListener {
         Activity c = this;
 
         if(view == Submit) {
-            try {  quest.answer(Integer.parseInt(input.getText().toString()));
+            try {  quest.answer(Float.parseFloat(input.getText().toString()));
             } catch (InvalidAnswerTypeException e) {
                 Toast.makeText(this,"Please enter a number!",Toast.LENGTH_LONG).show();
                 return;

@@ -1,6 +1,6 @@
-package com.thundersoft.anno2016.mintcamp.qwizz;
+package jimdo.gladsoft.anno2016.java.waterquest;
 
-import com.thundersoft.anno2016.mintcamp.qwizz.quests.QuestManager;
+import jimdo.gladsoft.anno2016.java.waterquest.quests.QuestManager;
 
 import java.io.Serializable;
 

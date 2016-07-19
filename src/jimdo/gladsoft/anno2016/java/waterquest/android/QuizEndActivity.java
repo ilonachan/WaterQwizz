@@ -1,4 +1,4 @@
-package com.thundersoft.anno2016.mintcamp.qwizz.android;
+package jimdo.gladsoft.anno2016.java.waterquest.android;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,8 +6,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import com.thundersoft.anno2016.mintcamp.qwizz.R;
-import com.thundersoft.anno2016.mintcamp.qwizz.User;
+import jimdo.gladsoft.anno2016.java.waterquest.R;
+import jimdo.gladsoft.anno2016.java.waterquest.User;
 
 /**
  * @author fgast34

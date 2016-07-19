@@ -1,9 +1,11 @@
-package com.thundersoft.anno2016.mintcamp.qwizz.quests;
+package jimdo.gladsoft.anno2016.java.waterquest.quests;
 
 import android.content.Context;
 import android.util.Log;
-import com.thundersoft.anno2016.mintcamp.qwizz.R;
-import com.thundersoft.anno2016.mintcamp.qwizz.android.MainActivity;
+import jimdo.gladsoft.anno2016.java.waterquest.QuestReader;
+import jimdo.gladsoft.anno2016.java.waterquest.R;
+import jimdo.gladsoft.anno2016.java.waterquest.android.MainActivity;
+import org.jetbrains.annotations.Nullable;
 
 import java.io.*;
 import java.util.*;
@@ -16,7 +18,6 @@ public class QuestManager implements Serializable{
 
     private List<GeneralQuest> quests;
     private int mQuestIndex;
-    private GeneralQuest actual;
     private int mHighscore;
     private int mEloVal = 1000;
 
@@ -24,8 +25,15 @@ public class QuestManager implements Serializable{
         reloadQuests();
     }
 
-    public void reloadQuests() {
+    private void reloadQuests() {
         quests = getAllQuests();
+
+	    for (int i = 0; i < quests.size(); i++) {
+		    if(quests.get(i) == null) {
+		    	Log.e("QuestInit", "FATAL ERROR:\nFound null-type element between standard elements! Remember that quests is NOT nullable!");
+			    quests.remove(i);
+		    }
+	    }
 
         quests = shuffleQuests(quests);
     }
@@ -41,14 +49,16 @@ public class QuestManager implements Serializable{
         return quests;
     }
 
-    protected List<GeneralQuest> shuffleQuests(List<GeneralQuest> quests) {
+    private List<GeneralQuest> shuffleQuests(List<GeneralQuest> quests) {
         Collections.sort(quests, new Comparator<GeneralQuest>() {
             Random r = new Random();
             @Override
             public int compare(GeneralQuest a1, GeneralQuest a2)
             {
-
-                return r.nextInt(3)-1;
+                if(a1.getCategory().equals(a2.getCategory()))
+                    return r.nextInt(3)-1;
+                else
+                    return a1.getCategory().compareTo(a2.getCategory());
             }
         });
         return quests;
@@ -58,58 +68,32 @@ public class QuestManager implements Serializable{
 
         //this requires there to be a dictionary.csv file in the raw directory
         //in this case you can swap in whatever you want
-        InputStream inputStream = c.getResources().openRawResource(R.raw.questions);
-        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+        QuestReader reader = new QuestReader(c.getResources().openRawResource(R.raw.questions));
 
         ArrayList<GeneralQuest> listy = new ArrayList<>();
 
         try
         {
-            String word;
-            while ((word = reader.readLine()) != null)
-            {
-                String[] parts = word.split(";");
-                if(parts.length < 7) continue;
-                String Desc = parts[1];
-                String Extra = parts[6];
-                switch(parts[0]){
-                    case "mcq":
-                        String[] ans = Arrays.copyOfRange(parts,2,6);
-                        listy.add(new MCQuest(ans,1,Desc, Extra));
-                        break;
-                    case "estq":
-                        int val = Integer.parseInt(parts[2]);
-                        int tol = Integer.parseInt(parts[3]);
-                        listy.add(new EstQuest(val,Desc,Extra,tol));
-                        break;
-                }
-
+            GeneralQuest q;
+	        q = reader.next();
+            while (q != null) {
+	            listy.add(q);
+	            Log.d("QuestManager: lQFF():","Added new Quest of Non-null type");
+	            q = reader.next();
             }
 
         }
-        catch (IOException ex) {
+        catch (IOException e) {
             // handle exception
-            Log.v(ex.getMessage(), "message");
-        }
-        finally
-        {
-            try
-            {
-                inputStream.close();
-
-            }
-            catch (IOException e) {
-                // handle exception
-                Log.v(e.getMessage(), "message");
+            Log.e("QuestManager: lQFF()",e.getStackTrace().toString());
+            try {
+                reader.close();
+            } catch (IOException ex) {
+                Log.e("QuestManager: lQFF()",ex.getStackTrace().toString());
             }
         }
         return listy;
     }
-
-
-
-
-
 
 
     public GeneralQuest getQuest(int index) {

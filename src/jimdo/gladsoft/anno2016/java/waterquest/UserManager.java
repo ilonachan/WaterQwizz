@@ -1,4 +1,4 @@
-package com.thundersoft.anno2016.mintcamp.qwizz;
+package jimdo.gladsoft.anno2016.java.waterquest;
 
 import java.io.Serializable;
 

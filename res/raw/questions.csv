@@ -1,5 +1,13 @@
-﻿param;Frage;Richtige Antwort a;Antwort b;Antwort c;Antwort d;Informationen
-param;Wasser weltweit;;;;;
+﻿rem;Für Multiple-Choice Fragen (Richtige Antwort als erste, Antworten werden automatisch gemischt):;;;;;
+rem;Frage;Richtige Antwort;Antwort 2;Antwort 3;Antwort 4;Informationen
+rem;;;;;;
+rem;Für Schätzfragen:;;;;;
+rem;Frage;Richtige Antwort;Toleranzwert(Wie weit darf der Nutzer weg sein?);;;Informationen
+rem;;;;;;
+rem;Für Medienfragen:;;;;;
+rem;Frage;Richtige Antwort;Antwort 2;Antwort 3;Antwort 4;Dateiname
+rem;;;;;;
+cat;Weltweit;;;;;
 mcq;Welche Menge des gesamten Flusswassers der Erde führt der Amazonas mit sich?;Zwei Drittel;Ein Zehntel;Ein Drittel;Ein Hundertstel;Der zweitlängste Fluss der Erde nach dem Nil ist mit Abstand der wasserreichste. Zwei Drittel des gesamten Flusswassers der Erde durchströmen sein Becken, das knapp 40 Prozent des gesamten südamerikanischen Kontinents bedeckt.
 mcq;Wasserverbrauch weltweit: Schätzen Sie die globale Verteilung des Wasserverbrauchs zwischen Haushalten, Industrie und Landwirtschaft.;Landwirtschaft 69% Industrie 23% Haushalte 8%;Landwirtschaft 33% Industrie 54% Haushalte 13%;Landwirtschaft 50% Industrie 30% Haushalte 20%;Landwirtschaft 1% Industrie 92% Haushalte 7%;
 mcq;Wie viele Menschen haben weltweit keinen Zugang zu sauberem Trinkwasser?;1,2 Milliarden;5 Millionen;70 Millionen ;150.000;Sauberes Wasser, für uns selbstverständlich, für 1.200.000.000 Menschen nicht
@@ -7,17 +15,17 @@ mcq;Durch welche Aktion wollte Umweltminister Klaus Töpfer 1988 angeblich bewei
 mcq;Was taten die Bauern im alten Ägypten in der Zeit, in der sie auf die Überflutung ihrer Felder durch den Nil warteten?;Sie mussten beim Bau der Pyramiden mithelfen;Sie hatten frei und ließen es sich gut gehen;Sie gingen in der Regel einem Zweitjob nach;Sie waren in einer landwirtschaftlichen Verwaltungsbehörde beschäftigt;Die altägyptischen Bauern waren nur ein Teil des Jahres mit der Bewirtschaftung ihrer Felder beschäftigt. In der Trockenzeit konnten sie nichts tun. In dieser Zeit zogen sie die Pharaonen zu Frondiensten heran, darunter auch zum Bau der Pyramiden.
 mcq;Der indische Ganges ist einer der dreckigsten Flüsse der Welt. Wodurch wird er am meisten verschmutzt?;Durch Rückstände menschlicher Leichen;Durch industrielle Abwässer;Durch das bei Hindus zur Pflicht gehörende rituelle Bad im Fluss;Durch die Ausscheidungen der in Indien heiligen Kühe;Nicht nur das Bad im Ganges ist Hindus heilig. Ferner glauben sie, dass ihre Seele befreit wird, wenn ihre Asche über dem Ganges verstreut wird. Familien, die sich die teure Einäscherung nicht leisten können, übergeben ihre Toten direkt dem Ganges.
 mcq;Die chilenische Atacama-Wüste ist die trockenste Wüste der Welt. Wie versuchen die Bewohner des Dorfes Chunchungo am Rande der Wüste, Trinkwasser zu gewinnen?;Durch das Einfangen von Wasser aus Nebel;Durch das Anzapfen wasserspeichernder Kakteen;Durch das Bohren des tiefsten Brunnens der Welt;Durch das Bauen der längsten Holzpipeline der Welt;Seit 1992 fangen die Bewohner des Dorfes in feinmaschigen Netzen den Nebel ein. Die Wassertropfen laufen in ein Auffangbecken und liefern jedem Einwohner etwa 20 Liter Trinkwasser am Tag.
-mcq;"Was forderte der australische Energieversorger ""Energy Australia"" 2006, um in dem traditionell regenarmen Land Wasser zu sparen?";Das Singen unter der Dusche zu verbieten;Komplett auf die Landwirtschaft zu verzichten;Den Ausschank von Leitungswasser in Restaurants zu verbieten;Auf jedes Rind eine Wassersteuer zu erheben;Nach Berechnungen des Energieversorgers verbringt ein Australier jeden Tag sieben Minuten unter der Dusche. Ohne zu singen würden die Australier schneller duschen, könnten 100 Dollar im Jahr sparen und etwas gegen die Wasserverschwendung tun.
+mcq;Was forderte der australische Energieversorger "Energy Australia" 2006, um in dem traditionell regenarmen Land Wasser zu sparen?;Das Singen unter der Dusche zu verbieten;Komplett auf die Landwirtschaft zu verzichten;Den Ausschank von Leitungswasser in Restaurants zu verbieten;Auf jedes Rind eine Wassersteuer zu erheben;Nach Berechnungen des Energieversorgers verbringt ein Australier jeden Tag sieben Minuten unter der Dusche. Ohne zu singen würden die Australier schneller duschen, könnten 100 Dollar im Jahr sparen und etwas gegen die Wasserverschwendung tun.
 mcq;Wie will der westafrikanische Senegal in Zukunft mehr Wasser für seine Landwirtschaft bereitstellen?;Er will Wolken gezielt abregnen lassen;Er will mit Tankschiffen Wasser aus Europa importieren;Er will unterirdisch die Grundwasserreserven des wasserreicheren Nachbarlandes Guinea anzapfen;Er will eine Wasserpipeline zum Victoria-See in Ostafrika bauen;Im Senegal bilden sich zwar stets einige Wolken, doch es regnet nur selten. Theoretisch gibt es zwei Möglichkeiten, Wolken tatsächlich zum Regnen zu bringen. Wissenschaftler bezweifeln jedoch, dass dies tatsächlich gezielt möglich ist.
 mcq;Wie will die Stadt Los Angeles erreichen, dass ihre Bürger weniger Wasser verbrauchen?;Durch Zuschüsse auf den Kauf von Kunstrasen für die Gärten;Durch einen automatischen Wasserstopp in jedem Haushalt bei zu viel Verbrauch;Durch das Schließen aller öffentlichen Schwimmbäder;Die Bürger sollen ihre Pools nur zur Hälfte mit Wasser füllen dürfen;Los Angeles versucht durch eine Reihe von Maßnahmen, die Bürger zum Sparen zu ermuntern. Dazu gehören neben neuen Toilettenspülungen in Restaurants auch finanzielle Zuschüsse auf wassersparende Waschmaschinen und Kunstrasen.
 mcq;Warum standen die beiden 2010 eingeweihten Meerwasserentsalzungsanlagen auf Mallorca ein Jahr später schon wieder still?;Es fehlten die Abnehmer für das entsalzte Wasser;Es fehlte bei beiden Anlagen eine Baugenehmigung;Die Anlagen wurden falsch gewartet und waren schon kaputt;Die Anlagen entsalzten das Meerwasser nicht richtig;Die in Andratx und Alcdia erbauten Anlagen fanden keinen Abnehmer, weil es ab 2011 ein System zur Wiederverwertung von aufbereitetem Wasser in Hotels gab.
 mcq;Wie viele Menschen versorgt der Bodensee mit Trinkwasser?;vier Millionen Menschen;zwei Millionen Menschen;20 Millionen Menschen;500.000 Menschen;Vier Millionen Menschen bekommen ihr Leitungswasser vom Bodensee. Der Bodensee ist der größte Trinkwasserspeicher Europas.
 mcq;Wie weit geht man in Afrika durchschnittlich bis zur nächsten Wasserquelle?;6 Kilometer;500 Meter;1 Kilometer;4 Kilometer;Ganze 6.000 Meter müssen in Afrika durchschnittlich zum Wasserholen zurückgelegt werden.
-param;;;;;;
-param;Wasser allgemein;;;;;
+rem;;;;;;
+cat;Allgemein;;;;;
 mcq;Was könnte in Zukunft einen Wassermangel auch in Deutschland bewirken?;Das Schmelzen der Gletscher in den Alpen;Das Absinken des Grundwasserspiegels;Das Austrocknen des Bodensees;Weniger Niederschläge durch die globale Erwärmumg;Die alpinen Gletscher sind eines der wichtigsten Wasserreservoire Mitteleuropas. Wenn die Gletscher aber durch den globalen Klimawandel immer weiter abschmelzen, werden vor allem die Flüsse in Zukunft nicht mehr ausreichend mit Wasser gespeist.
 estq;Wasser ist die Grundlage allen Lebens. Selbst der Mensch besteht zum Teil aus Wasser.Aus wie viel Prozent Wasser besteht der Mensch?;67;5;;;
-mcq;Wasser ist die Quelle der Gesundheit. Wie viele Liter Wasser sollte ein Mensch täglich mindestens zu sich nehmen?;2;0;;;Wir sollten täglich mindestens zwei Liter Wasser trinken, weil wir sonst austrocknen. Das kann bedeuten, dass wir Kopfschmerzen oder Krämpfe bekommen und uns sehr müde fühlen.
+estq;Wasser ist die Quelle der Gesundheit. Wie viele Liter Wasser sollte ein Mensch täglich mindestens zu sich nehmen?;2;0;;;Wir sollten täglich mindestens zwei Liter Wasser trinken, weil wir sonst austrocknen. Das kann bedeuten, dass wir Kopfschmerzen oder Krämpfe bekommen und uns sehr müde fühlen.
 mcq;Wenn der Mensch zu wenig Wasser zu sich nimmt, steht er kurz vor der ... Wie nennt man die Austrocknung des Körpers?;Dehydrierung;Demontage;Drainage;Hydratation;
 estq;Wie viele Liter Wasser verschlingt ein 18-Loch-Golfplatz pro Tag?;2300000;500000;;;Ein durchschnittlicher 18-Loch-Golfplatz verschlingt 2,3 Millionen Liter am Tag.
 mcq;Wie viel Wasser verbraucht jeder Bundesbürger pro Tag ? zum Händewaschen, Duschen, Essen kochen oder für die Waschmaschine?;130;260;50;190;
@@ -25,9 +33,8 @@ mcq;Wann entstand das erste moderne Kanalisationsnetz Europas?;vor ungefähr 150
 mcq;Wie wird das Wasser in Flüssen, Seen oder Gletschern genannt?;Süßwasser;Salzwasser;Kondenswasser;Dreckwasser;Wasser aus Flüssen, Seen, Bächen wird als Süßwasser bezeichnet. Dabei schmeckt es gar nicht süß. Süßwasser ist der Gegensatz zum Salzwasser, weil es kein Salz oder nur ganz wenig enthält. Auch das Eis in Gletschern ist Süßwasser. Es stellt sogar den größten Anteil des Süßwassers auf der Erde dar.
 mcq;Jeder kann Wasser sparen, aber wie?;Tropfende Wasserhähne abdichten, Duschen statt Baden, Wasserhahn abstellen beim Zähne putzen;WC-Spülung immer zweimal betätigen, Abwasser in Kübeln aufheben;Nur einen Wasserhahn verwenden, zum Nachbarn gehen und Wasser holen;;
 estq;Wie viele Liter Wasser werden für die Herstellung eines Computers benötigt?;33000;5000;;;Das Äquivalent einer 46-Stunden-Dusche.
-param;;;;;;
-param;;;;;;
-param;Wasser Physik/Chemie;;;;;
+rem;;;;;;
+cat;Physik/Chemie;;;;;
 mcq;Wasser ist das Lebensmittel Nummer Eins: Trinkwasser ist lebensnotwenig. Dementsprechend zählt es zu den Lebensmitteln, die in ihrer Qualität streng überwacht werden. Über welche Eigenschaften verfügt das Wasser?;geruchlos, gschmacklos und farblos;Blau, kühl und teuer;voller Bakterien, kohlensäurehaltig, schmeckt süß;;
 mcq;Wie lautet die chemische Formel für Wasser?;H2O;CO2;NO2;H2O2;
 estq;Welchen pH-Wert (Angabe für den Säuregrad einer Flüssigkeit) hat destilliertes Wasser?;7;0;;;
@@ -39,8 +46,8 @@ mcq;Virtuelles Wasser ist die Menge Wasser, die zum Beispiel in einem Lebensmitt
 mcq;Das meiste Süßwasser auf der Erde befindet sich ?;als Eis an den Polkappen;in den Süßwasserseen im Kaukasus;im Grundwasser;;
 mcq;Was ist virtuelles Wasser?;Wasser, das benötigt wird, um ein bestimmtes Produkt herzustellen;Scheinbar vorhandenes Wasser, das in Wüsten durch ein Hitzeflimmern am Horizont erscheint.;Eine geheimnisvolle Flüssigkeit der Elben, die in dem Fantasiebuch Der Herr der Ringe von J.R. Tolkien erwähnt wird.;;
 mcq;Bei welcher Temperatur hat Wasser seine höchste Dichte?;4;100;0;-30;
-param;;;;;;
-param;Wasser Ökologie/?;;;;;
+rem;;;;;;
+cat;Ökologie;;;;;
 mcq;Welches der folgenden Ökosysteme ist ein Fließgewässer?;Bach;Teich;Moor;See;
 mcq;Welches ist die artenreichste Tiergruppe in Fließgewässern und Auen?;Insekten;Vögel;Fische;Krebstiere;
 mcq;Fließgewässer sind wichtige Lebensräume für viele Tierarten. Wo leben die meisten Tiere?;in und am Gewässergrund;am Ufer;auf der Wasseroberfläche;im fließenden Wasser;
@@ -55,7 +62,7 @@ mcq;Was bewirkt ein erhöhter Nährstoffeintrag in Gewässer?;Eutrophierung;Das 
 mcq;Woher stammen Nährtoffeinträge in Gewässer?;Landwirtschaft;Kühlwassereinleitungen;Bootstourismus;Wasserkraftnutzung;
 mcq;Welche Anforderungen sind an Wasserkraftanlagen an unseren Flüssen zu stellen?;Fischschutz;Angelsteg;Blitzableiter;Webcam;
 param;;;;;;
-param;Große Dhünn-Talsperre;;;;;
+cat;Große Dhünn-Talsperre;;;;;
 mcq;Wie viel Rohwasser können pro Jahr zur Trinkwasseraufbereitung aus der Großen Dhünn-Talsperre entnommen werden?;42 Mio. m³;10 Mio m³;22 Mio³;37 Mio m³;
 mcq;Damit die Dhünn unterhalb der Staumauer nicht austrocknet, wird ein Mindesabfluss aus der Talsperre sichergestellt. Wie hoch liegt der am Pegel Manfort (Leverkusen)?;1,0 m³/s;1,8 m³/s;0,1 m³/s;5,2 m³/s;
 mcq;Wie viele Vorstauanlagen hat die Große Dhünn-Talsprerre?;17;3;15;34;
@@ -79,9 +86,8 @@ mcq;Wie viel Wasser verliert die Große Dhünn-Talsperre jährlich durch Verduns
 mcq;Schirpendhünn, Kotterlinde und Strünken sind?;Versunkene Orte in der Talsperre;Bergische Schimpfwörter ;Baumarten;Alte Familienamen aus dem Dhünntal;
 mcq;Warum ist die Fischartenzusammensetzung unterhalb der Großen Dhünn-Talsperre nicht so, wie die Biologen sich das vorstellen?;Wasser ist zu kalt;Wasser ist zu warm;Chemie ungünstig;Nahrungsangebot ungünstig;
 mcq;Welche Gegensteuerungsmaßnahme ist derzeit an der Großen Dhünn-Talsperre im Bau, um die Fischartenzusammensetzung unterhalb der Talsperre  in der Dhünn zu beeinflussen?;Thermorüssel;Geothermieanlage;Elefantenrüssel;Windkraftanlage;
-param;;;;;;
-param;;;;;;
-param;Medienfragen mit Bildern: ;;;;;Bildname
+rem;;;;;;
+cat;Medienfragen;;;;;
 mcqpic;Wie hoch ist der Rohwasserentnahmeturm der Großen Dhünn-Talsperre?;66 m;46 m;37 m;53 m;2011_09_26_0073
 mcqpic;Welchen Durchmesser hat der Hochwasserentlastungsturm mit Überfalltrichter?;20 m;15 m;7,5 m;12,80 m;P1010039
 mcqpic;Wie heißt der hier gezeigte, längste Nebenfluss der Dhünn?;Eifgenbach;Linnefe;Leimbach;Scherfbach;DSC_0216

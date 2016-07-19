@@ -1,15 +1,15 @@
-package com.thundersoft.anno2016.mintcamp.qwizz.android;
+package jimdo.gladsoft.anno2016.java.waterquest.android;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import com.thundersoft.anno2016.mintcamp.qwizz.User;
-import com.thundersoft.anno2016.mintcamp.qwizz.android.quests.EstQActivity;
-import com.thundersoft.anno2016.mintcamp.qwizz.android.quests.MCQActivity;
-import com.thundersoft.anno2016.mintcamp.qwizz.quests.QuestManager;
-import com.thundersoft.anno2016.mintcamp.qwizz.quests.EstQuest;
-import com.thundersoft.anno2016.mintcamp.qwizz.quests.GeneralQuest;
-import com.thundersoft.anno2016.mintcamp.qwizz.quests.MCQuest;
+import jimdo.gladsoft.anno2016.java.waterquest.User;
+import jimdo.gladsoft.anno2016.java.waterquest.android.quests.EstQActivity;
+import jimdo.gladsoft.anno2016.java.waterquest.android.quests.MCQActivity;
+import jimdo.gladsoft.anno2016.java.waterquest.quests.QuestManager;
+import jimdo.gladsoft.anno2016.java.waterquest.quests.EstQuest;
+import jimdo.gladsoft.anno2016.java.waterquest.quests.GeneralQuest;
+import jimdo.gladsoft.anno2016.java.waterquest.quests.MCQuest;
 
 /**
  * @author fgast34

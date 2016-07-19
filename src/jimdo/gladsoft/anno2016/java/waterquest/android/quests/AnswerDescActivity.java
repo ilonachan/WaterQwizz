@@ -1,4 +1,4 @@
-package com.thundersoft.anno2016.mintcamp.qwizz.android.quests;
+package jimdo.gladsoft.anno2016.java.waterquest.android.quests;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import com.thundersoft.anno2016.mintcamp.qwizz.R;
+import jimdo.gladsoft.anno2016.java.waterquest.R;
 
 /**
  * @author fgast34

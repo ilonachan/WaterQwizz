@@ -1,4 +1,4 @@
-package com.thundersoft.anno2016.mintcamp.qwizz.android;
+package jimdo.gladsoft.anno2016.java.waterquest.android;
 
 import android.app.Activity;
 import android.content.Context;
@@ -9,15 +9,10 @@ import android.preference.Preference;
 import android.util.Log;
 import android.view.View;
 import android.widget.*;
-import com.thundersoft.anno2016.mintcamp.qwizz.R;
-import com.thundersoft.anno2016.mintcamp.qwizz.User;
-import com.thundersoft.anno2016.mintcamp.qwizz.UserManager;
-import com.thundersoft.anno2016.mintcamp.qwizz.quests.QuestManager;
-
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectInputStream;
+import jimdo.gladsoft.anno2016.java.waterquest.R;
+import jimdo.gladsoft.anno2016.java.waterquest.User;
+import jimdo.gladsoft.anno2016.java.waterquest.UserManager;
+import jimdo.gladsoft.anno2016.java.waterquest.quests.QuestManager;
 
 
 /**

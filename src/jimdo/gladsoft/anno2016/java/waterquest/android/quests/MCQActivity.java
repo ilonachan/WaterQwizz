@@ -1,4 +1,4 @@
-package com.thundersoft.anno2016.mintcamp.qwizz.android.quests;
+package jimdo.gladsoft.anno2016.java.waterquest.android.quests;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,10 +10,10 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.thundersoft.anno2016.mintcamp.qwizz.R;
-import com.thundersoft.anno2016.mintcamp.qwizz.quests.InvalidAnswerTypeException;
-import com.thundersoft.anno2016.mintcamp.qwizz.quests.InvalidArgumentException;
-import com.thundersoft.anno2016.mintcamp.qwizz.quests.MCQuest;
+import jimdo.gladsoft.anno2016.java.waterquest.R;
+import jimdo.gladsoft.anno2016.java.waterquest.quests.InvalidAnswerTypeException;
+import jimdo.gladsoft.anno2016.java.waterquest.quests.InvalidArgumentException;
+import jimdo.gladsoft.anno2016.java.waterquest.quests.MCQuest;
 
 /**
  * @author fgast34

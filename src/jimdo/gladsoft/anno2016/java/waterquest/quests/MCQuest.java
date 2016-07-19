@@ -1,4 +1,4 @@
-package com.thundersoft.anno2016.mintcamp.qwizz.quests;
+package jimdo.gladsoft.anno2016.java.waterquest.quests;
 
 /**
  * @author Anton Schlömer
@@ -8,6 +8,7 @@ public class MCQuest extends GeneralQuest {
 
     private int mCorrectAnswer;
     private String[] mAnswers;
+
 
     public int getCorrect() {
         if(hasUserAnswered())
@@ -32,16 +33,16 @@ public class MCQuest extends GeneralQuest {
     }
 
     public MCQuest(String[] answers, int correctAnswer, String desc, String extra) {
-        this(answers, correctAnswer, desc, extra, true);
+        this(answers, correctAnswer, desc, extra, null);
     }
 
-    public MCQuest(String[] answers, int correctAnswer, String desc, String extra, boolean mayShuffle){
-        super(desc, extra);
+    public MCQuest(String[] answers, int correctAnswer, String desc, String extra, String category){
+        super(desc, extra, category);
         this.mAnswers = answers;
         this.mCorrectAnswer = correctAnswer;
         this.mDesc = desc;
 
-        if(mayShuffle)shuffle();
+        shuffle();
     }
 
     public String[] getAnswers() {
@@ -50,13 +51,13 @@ public class MCQuest extends GeneralQuest {
 
     @Override
     public String toString() {
-        String str = "Multiple-Choice Quest: '"+mDesc+"'\n" +
+        String str = "Multiple-Choice Quest: '"+mDesc+"'\n"/* +
                 "Answers:\n";
         for(int i = 0; i < mAnswers.length; i++) {
             str += (i+1)+". "+mAnswers[i]+"\n";
         }
         str += "Correct answer: "+mCorrectAnswer+"\n" +
-                (mAnswered?("Answer: "+mUserAnswer+", was "+(mCorrect?"":"in")+"correct"):"Not yet answered");
+                (mAnswered?("Answer: "+mUserAnswer+", was "+(mCorrect?"":"in")+"correct"):"Not yet answered")*/;
         return str;
     }
 

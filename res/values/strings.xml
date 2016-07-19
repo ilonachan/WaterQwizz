@@ -24,5 +24,7 @@
     <string name="createdBy">Created By:</string>
     <string name="theCreators">Anton Schlömer\nAshley Hillebrand\nTimo Kalker\nMarius Gleißner</string>
     <string name="instructionText">This is actually an Activity!</string>
+    <string name="VersionName">0.1 Beta 1</string>
+	<string name="developmentOf">Eine Entwicklung von:</string>
 
 </resources>

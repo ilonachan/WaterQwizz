@@ -1,4 +1,4 @@
-package com.thundersoft.anno2016.mintcamp.qwizz.quests;
+package jimdo.gladsoft.anno2016.java.waterquest.quests;
 
 import java.io.Serializable;
 
@@ -18,6 +18,7 @@ public abstract class GeneralQuest implements Serializable{
     protected Object mUserAnswer;
     protected String mDesc;
     protected String mExtra;
+    protected String mCategory;
 
     /**
      * The method handles the request of the user to answer the question.
@@ -57,7 +58,17 @@ public abstract class GeneralQuest implements Serializable{
     }
 
     public GeneralQuest(String desc, String extra) {
+        this(desc, extra, null);
+    }
+
+    public GeneralQuest(String desc, String extra, String category) {
         this.mDesc = desc;
         this.mExtra = extra;
+        this.mCategory = category;
+    }
+
+    public String getCategory() {
+        if(mCategory == null) return "";
+        return this.mCategory;
     }
 }

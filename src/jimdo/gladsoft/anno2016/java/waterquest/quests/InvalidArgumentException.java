@@ -1,4 +1,4 @@
-package com.thundersoft.anno2016.mintcamp.qwizz.quests;
+package jimdo.gladsoft.anno2016.java.waterquest.quests;
 
 /**
  * @author fgast34

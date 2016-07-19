@@ -1,8 +1,8 @@
-package com.thundersoft.anno2016.mintcamp.qwizz.android;
+package jimdo.gladsoft.anno2016.java.waterquest.android;
 
 import android.app.Activity;
 import android.os.Bundle;
-import com.thundersoft.anno2016.mintcamp.qwizz.R;
+import jimdo.gladsoft.anno2016.java.waterquest.R;
 
 /**
  * @author fgast34
