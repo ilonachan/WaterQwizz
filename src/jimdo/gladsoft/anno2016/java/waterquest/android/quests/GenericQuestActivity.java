@@ -10,10 +10,9 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import jimdo.gladsoft.anno2016.java.waterquest.R;
-import jimdo.gladsoft.anno2016.java.waterquest.quests.GeneralQuest;
-import jimdo.gladsoft.anno2016.java.waterquest.quests.InvalidAnswerTypeException;
-import jimdo.gladsoft.anno2016.java.waterquest.quests.InvalidArgumentException;
-import jimdo.gladsoft.anno2016.java.waterquest.quests.MCQuest;
+import jimdo.gladsoft.anno2016.java.waterquest.User;
+import jimdo.gladsoft.anno2016.java.waterquest.android.QuizEndActivity;
+import jimdo.gladsoft.anno2016.java.waterquest.quests.*;
 
 /**
  * @author Anton
@@ -21,24 +20,51 @@ import jimdo.gladsoft.anno2016.java.waterquest.quests.MCQuest;
  */
 public class GenericQuestActivity extends Activity implements View.OnClickListener {
 
-	GeneralQuest quest;
-	TextView mDesc;
-	LinearLayout mFragmentContainer;
-	Button Submit;
-	QuestFragment mFragment;
+	private QuestManager mManager;
+	private int score;
+	private User user;
+	private GeneralQuest quest;
+	private TextView mDesc;
+	private Button Submit;
+	private QuestFragment mFragment;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		quest = (GeneralQuest) getIntent().getSerializableExtra("givenQuest");
-		initGUI();
+		user = (User) getIntent().getSerializableExtra("user");
+		mManager = user.getManager();
+
+		proceedQuiz();
 	}
+
+
+
+
+	public void proceedQuiz() {
+		quest = mManager.getNext();
+
+		if (quest  != null) {
+			initGUI();
+		}
+
+		Intent i = new Intent(this, QuizEndActivity.class);
+		i.putExtra("playerScore", score);
+		i.putExtra("totalQuests", mManager.getNumberOfQuests());
+		i.putExtra("user", user);
+		this.startActivity(i);
+
+		mManager.manageElo(score,mManager.getNumberOfQuests(),1);
+		setResult(RESULT_OK, new Intent().putExtra("user",user));
+		finish();
+	}
+
+
+
 
 	public void initGUI() {
 		setContentView(R.layout.mcq_layout);
 
 		mDesc = (TextView) findViewById(R.id.desc);
-		mFragmentContainer = (LinearLayout) findViewById(R.id.fragmentContainer);
 
 		Submit = (Button) findViewById(R.id.SubmitButton);
 		Submit.setOnClickListener(this);
@@ -75,6 +101,7 @@ public class GenericQuestActivity extends Activity implements View.OnClickListen
 				// And write the returned specific
 				// message into the answer pad
 				mDesc.setText(mFragment.handleWin());
+				score++;
 			} else {
 				// Make the fragment evaluate the loss
 				// And write the returned specific
@@ -86,8 +113,8 @@ public class GenericQuestActivity extends Activity implements View.OnClickListen
 
 			Submit.setText(R.string.continueButton);
 			Submit.setOnClickListener(v -> {
-				setResult(RESULT_OK, new Intent().putExtra("quest", quest));
-				finish();
+				Submit.setText(R.string.submit);
+				proceedQuiz();
 			});
 		}
 	}
