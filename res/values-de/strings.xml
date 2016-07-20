@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">WaterQuest</string>
-    <string name="mcquest">MultipleChoice-Aufgabe</string>
+	<string name="mcquest">MultipleChoice-Aufgabe</string>
     <string name="estquest">Schätzfrage</string>
     <string name="gameStart">Spielstart</string>
     <string name="gameManual">Anleitung</string>
@@ -23,5 +22,10 @@
     <string name="credits">Impressum</string>
     <string name="createdBy">Erstellt von:</string>
     <string name="instructionText">Willkommen zu "WaterQuest"!</string>
+	<string name="correct">Richtig</string>
+	<string name="developmentOf">Eine Entwicklung von:</string>
+	<string name="estcorrect">Sehr gut!\nDie Antwort war: %f</string>
+	<string name="estwrong">Naja...\nDie Antwort war: %f</string>
+	<string name="wrong">Falsch :´(</string>
 
 </resources>

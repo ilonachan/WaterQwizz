@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">WaterQuest</string>
+    <string name="app_name" translatable="false">WaterQuest</string>
     <string name="mcquest">Multiple-Choice Quest</string>
     <string name="estquest">Estimate Quest</string>
     <string name="gameStart">Start Game</string>
@@ -22,13 +22,13 @@
     <string name="gamerSc">Your Gamerscore after this\nround is %d</string>
     <string name="credits">Credits</string>
     <string name="createdBy">Created By:</string>
-    <string name="theCreators">Anton Schlömer\nAshley Hillebrand\nTimo Kalker\nMarius Gleißner</string>
+    <string name="theCreators" translatable="false">Anton Schlömer\nAshley Hillebrand\nTimo Kalker\nMarius Gleißner</string>
     <string name="instructionText">Welcome to WaterQuest!\n"WaterQuest" is a creation of "gladSoft Productions" during a programming summercamp</string>
-    <string name="VersionName">0.1 Beta 1</string>
+    <string name="VersionName" translatable="false">0.1 Beta 1</string>
 	<string name="developmentOf">A development of:</string>
     <string name="correct">Correct!!!</string>
     <string name="wrong">Wrong :´(</string>
-    <string name="estcorrect">Very good!\nThe value was: %d</string>
-    <string name="estwrong">Too bad...\nThe value was: %d</string>
+    <string name="estcorrect">Very good!\nThe value was: %f</string>
+    <string name="estwrong">Too bad...\nThe value was: %f</string>
 
 </resources>
