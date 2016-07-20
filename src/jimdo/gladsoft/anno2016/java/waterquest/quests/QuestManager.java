@@ -50,7 +50,7 @@ public class QuestManager implements Serializable{
     }
 
     private List<GeneralQuest> shuffleQuests(List<GeneralQuest> quests) {
-        Collections.sort(quests, new Comparator<GeneralQuest>() {
+        Collections.shuffle(quests/*, new Comparator<GeneralQuest>() {
             Random r = new Random();
             @Override
             public int compare(GeneralQuest a1, GeneralQuest a2)
@@ -59,6 +59,15 @@ public class QuestManager implements Serializable{
                     return r.nextInt(3)-1;
                 else
                     return a1.getCategory().compareTo(a2.getCategory());
+            }
+        }*/);
+        Collections.sort(quests, new Comparator<GeneralQuest>() {
+            @Override
+            public int compare(GeneralQuest lhs, GeneralQuest rhs) {
+                if(lhs.getCategory().equals(rhs.getCategory()))
+                    return 0;
+                else
+                    return lhs.getCategory().compareTo(rhs.getCategory());
             }
         });
         return quests;

@@ -67,7 +67,7 @@ public class QuestReader {
             case "estq":
                 float val = Float.parseFloat(parts[2]);
                 float tol = Float.parseFloat(parts[3]);
-                return new EstQuest(val,Desc,Extra,tol, mCategory);
+                return /*new EstQuest(val,Desc,Extra,tol, mCategory)*/ null;
             default:
                 return null;
         }

@@ -28,24 +28,22 @@ estq;Wasser ist die Grundlage allen Lebens. Selbst der Mensch besteht zum Teil a
 estq;Wasser ist die Quelle der Gesundheit. Wie viele Liter Wasser sollte ein Mensch täglich mindestens zu sich nehmen?;2;0;;;Wir sollten täglich mindestens zwei Liter Wasser trinken, weil wir sonst austrocknen. Das kann bedeuten, dass wir Kopfschmerzen oder Krämpfe bekommen und uns sehr müde fühlen.
 mcq;Wenn der Mensch zu wenig Wasser zu sich nimmt, steht er kurz vor der ... Wie nennt man die Austrocknung des Körpers?;Dehydrierung;Demontage;Drainage;Hydratation;
 estq;Wie viele Liter Wasser verschlingt ein 18-Loch-Golfplatz pro Tag?;2300000;500000;;;Ein durchschnittlicher 18-Loch-Golfplatz verschlingt 2,3 Millionen Liter am Tag.
-mcq;Wie viel Wasser verbraucht jeder Bundesbürger pro Tag ? zum Händewaschen, Duschen, Essen kochen oder für die Waschmaschine?;130;260;50;190;
-mcq;Wann entstand das erste moderne Kanalisationsnetz Europas?;vor ungefähr 150 Jahren in Hamburg;vor 90 Jahren in Paris;vor 40 Jahren in Amsterdam;;Das erste moderne Kanalisationssystem in Europa wurde im Jahr 1856 in Hamburg gebaut. Die Römer haben aber schon vor mehr als 2 000 Jahren ein einfaches Kanalisationssystem entworfen.
-mcq;Wie wird das Wasser in Flüssen, Seen oder Gletschern genannt?;Süßwasser;Salzwasser;Kondenswasser;Dreckwasser;Wasser aus Flüssen, Seen, Bächen wird als Süßwasser bezeichnet. Dabei schmeckt es gar nicht süß. Süßwasser ist der Gegensatz zum Salzwasser, weil es kein Salz oder nur ganz wenig enthält. Auch das Eis in Gletschern ist Süßwasser. Es stellt sogar den größten Anteil des Süßwassers auf der Erde dar.
-mcq;Jeder kann Wasser sparen, aber wie?;Tropfende Wasserhähne abdichten, Duschen statt Baden, Wasserhahn abstellen beim Zähne putzen;WC-Spülung immer zweimal betätigen, Abwasser in Kübeln aufheben;Nur einen Wasserhahn verwenden, zum Nachbarn gehen und Wasser holen;;
+estq;Wie viele Liter Wasser verbraucht jeder Bundesbürger pro Tag? zum Händewaschen, Duschen, Essen kochen oder für die Waschmaschine?;130;20;;;
+mcq;Wann entstand das erste moderne Kanalisationsnetz Europas?;vor ungefähr 150 Jahren in Hamburg;vor 90 Jahren in Paris;vor ungefähr 40 Jahren in Amsterdam;;Das erste moderne Kanalisationssystem in Europa wurde im Jahr 1856 in Hamburg gebaut. Die Römer haben aber schon vor mehr als 2 000 Jahren ein einfaches Kanalisationssystem entworfen.
+mcq;Wie wird das Wasser in Flüssen, Seen oder Gletschern genannt?;Süßwasser;Salzwasser;Kondenswasser;Dreckwasser;Wasser aus Flüssen, Seen, Bächen wird als Süßwasser bezeichnet, obwohl es gar nicht süß ist. Süßwasser ist der Gegensatz zum Salzwasser, weil es kein Salz oder nur sehr wenig enthält. Auch das Eis in Gletschern ist Süßwasser. Es stellt sogar den größten Anteil des Süßwassers auf der Erde dar.
 estq;Wie viele Liter Wasser werden für die Herstellung eines Computers benötigt?;33000;5000;;;Das Äquivalent einer 46-Stunden-Dusche.
 rem;;;;;;
 cat;Physik/Chemie;;;;;
-mcq;Wasser ist das Lebensmittel Nummer Eins: Trinkwasser ist lebensnotwenig. Dementsprechend zählt es zu den Lebensmitteln, die in ihrer Qualität streng überwacht werden. Über welche Eigenschaften verfügt das Wasser?;geruchlos, gschmacklos und farblos;Blau, kühl und teuer;voller Bakterien, kohlensäurehaltig, schmeckt süß;;
 mcq;Wie lautet die chemische Formel für Wasser?;H2O;CO2;NO2;H2O2;
 estq;Welchen pH-Wert (Angabe für den Säuregrad einer Flüssigkeit) hat destilliertes Wasser?;7;0;;;
 mcq;Zu den wichtigsten Inhaltsstoffen von Wasser zählen?;Kalzium, Magnesium, Sulfate, Fluorid;Kalium, Chlorid, Natrium;Nitrat, Pestizide, Blei;;
 estq;Bei wie viel Grad kocht Wasser bei normalem Luftdruck (Meeresniveau)?;100;0;;;
 mcq;Was treibt den Wasserkreislauf an;Die Sonne;Der Mond;Der Wind;Die  Erdrotation;Die Sonne ist der Motor, der den Wasserkreislauf in Gang bringt. Durch die Sonnenwärme verdunstet Wasser, das als Wasserdampf aufsteigt und abkühlt, sich zu Wolken verdichtet und als Regen, Schnee oder Hagel wieder auf die Erde herabfällt.
-mcq;In welchem Wasser werden wir leicht nach oben getrieben?;im Meerwasser;im Mineralbad;im Schwimmbad;;Durch das Salz im Wasser erhöht sich die Dichte des Wassers. Das Wasser wird also schwerer und alles, was darin schwimmt, ist im Verhältnis dazu leichter. Darum fällt das Schwimmen im salzigen Meerwasser leichter als im normalen Schwimmbad-Wasser.
-mcq;Virtuelles Wasser ist die Menge Wasser, die zum Beispiel in einem Lebensmittel enthalten ist und zu dessen Herstellung aufgewendet werden muss. In welchem dieser Lebensmittel steckt das meiste virtuelle Wasser?;1 Hamburger;1 Frühstücksei;2 Gläser Apfelsaft;2 Tomaten;
-mcq;Das meiste Süßwasser auf der Erde befindet sich ?;als Eis an den Polkappen;in den Süßwasserseen im Kaukasus;im Grundwasser;;
+mcq;In welchem Wasser wird man leicht nach oben getrieben?;im Meerwasser;im Mineralbad;im Schwimmbad;;Durch das Salz im Wasser erhöht sich die Dichte des Wassers. Das Wasser wird also schwerer und alles, was darin schwimmt, ist im Verhältnis dazu leichter. Darum fällt das Schwimmen im salzigen Meerwasser leichter als im normalen Schwimmbad-Wasser.
+mcq;In welchem dieser Lebensmittel steckt das meiste virtuelle Wasser?;1 Hamburger;1 Frühstücksei;2 Gläser Apfelsaft;2 Tomaten;
+mcq;Das meiste Süßwasser auf der Erde befindet sich;als Eis an den Polkappen;in den Süßwasserseen im Kaukasus;im Grundwasser;;
 mcq;Was ist virtuelles Wasser?;Wasser, das benötigt wird, um ein bestimmtes Produkt herzustellen;Scheinbar vorhandenes Wasser, das in Wüsten durch ein Hitzeflimmern am Horizont erscheint.;Eine geheimnisvolle Flüssigkeit der Elben, die in dem Fantasiebuch Der Herr der Ringe von J.R. Tolkien erwähnt wird.;;
-mcq;Bei welcher Temperatur hat Wasser seine höchste Dichte?;4;100;0;-30;
+estq;Bei welcher Temperatur hat Wasser seine höchste Dichte?;4;0.1;;;Anders als die meisten flüssigen (und festen) Stoffe hat Wasser seine größte Dichte schon bei 4° anstatt bei 0°, wie manchmal angenommen. Dies wird auch als "Dichteanomalie" bezeichnet.
 rem;;;;;;
 cat;Ökologie;;;;;
 mcq;Welches der folgenden Ökosysteme ist ein Fließgewässer?;Bach;Teich;Moor;See;
@@ -54,10 +52,10 @@ mcq;Fließgewässer sind wichtige Lebensräume für viele Tierarten. Wo leben di
 mcq;Woraus wird in Deutschland das meiste Trinkwasser gewonnen?;Grundwasser;Talsperren;Flüssen;Meer;
 mcq;Welcher Industriezweig in Deutschland benötigt das meiste Wasser?;Energieversorgung;Papierindustrie;Kohlebergbau;Chemische Industrie;
 mcq;Wodurch ist die Qualität des Trinkwassers in Deutschland am meisten gefährdet?;Durch alte Bleirohre in den Haushalten;Durch Medikamentenrückstände, die nicht vollständig geklärt werden können;Durch falsche Beigabe von Mineralien in den Klärwerken;Durch Güllerückstände auf den Feldern, die ins Grundwasser gelangen;Die Trinkwasserqualität in Deutschland ist hervorragend. Die Verantwortung der Wasserwerke hört jedoch an der Haustür auf. Viele unsanierte Altbauten sind noch mit alten Bleirohren ausgestattet, deren Rückstände sich in Blut und Knochen ablagern können.
-mcq;Das europäische Gesetzeswerk, das für einen guten ökologischen Zustand der Gewässer sorgen soll, heißt:; Europäische Wasserrahmenrichtlinie; Let-it-flow-Direktive ISO 2003/2;Lex aqua der europäischen Kommission;;
-mcq;Wie kann der Einfluss der Landwirtschaft auf die Gewässer gemindert werden?;Uferrandstreifen;Vegetarische Ernährung;Verstärkter Import von Fleisch;neue Tierrassen ;
+mcq;Das europäische Gesetzeswerk, das für einen guten ökologischen Zustand der Gewässer sorgen soll, heißt:;Europäische Wasserrahmenrichtlinie;Let-it-flow-Direktive ISO 2003/2;Lex aqua der europäischen Kommission;;
+mcq;Wie kann der Einfluss der Landwirtschaft auf die Gewässer gemindert werden?;Uferrandstreifen;Vegetarische Ernährung;Verstärkter Import von Fleisch;neue Tierrassen;
 mcq;Welche Ziele verfolgt die Wasserrahmenrichtlinie?;Guten chemischen und Ökologischen Zustand;Trinkwasserqualität;Badegewässerqualität;Schiffbarkeit;
-mcq;"Was bedeutet der Begriff der ""Durchgängigkeit"" von Gewässersystemen?";Für Gewässerorganismen durchschwimmbar;Für Fußgänger und Radfahrer passierbar;mit Booten zu befahren;gute Randbedingungen für Taucher;
+mcq;Was bedeutet der Begriff der "Durchgängigkeit" von Gewässersystemen?;Für Gewässerorganismen durchschwimmbar;Für Fußgänger und Radfahrer passierbar;mit Booten zu befahren;gute Randbedingungen für Taucher;
 mcq;Was bewirkt ein erhöhter Nährstoffeintrag in Gewässer?;Eutrophierung;Das Wasser wird schwerer;der gute chemische Zustand ist nicht zu erreichen;das Gewässer hat  für Fische besonders gute Bedingungen;
 mcq;Woher stammen Nährtoffeinträge in Gewässer?;Landwirtschaft;Kühlwassereinleitungen;Bootstourismus;Wasserkraftnutzung;
 mcq;Welche Anforderungen sind an Wasserkraftanlagen an unseren Flüssen zu stellen?;Fischschutz;Angelsteg;Blitzableiter;Webcam;
@@ -66,32 +64,31 @@ cat;Große Dhünn-Talsperre;;;;;
 mcq;Wie viel Rohwasser können pro Jahr zur Trinkwasseraufbereitung aus der Großen Dhünn-Talsperre entnommen werden?;42 Mio. m³;10 Mio m³;22 Mio³;37 Mio m³;
 mcq;Damit die Dhünn unterhalb der Staumauer nicht austrocknet, wird ein Mindesabfluss aus der Talsperre sichergestellt. Wie hoch liegt der am Pegel Manfort (Leverkusen)?;1,0 m³/s;1,8 m³/s;0,1 m³/s;5,2 m³/s;
 mcq;Wie viele Vorstauanlagen hat die Große Dhünn-Talsprerre?;17;3;15;34;
-mcq;Wozu dienen die Vorstauanlagen einer Talsperre?;Sie unterstützen den Gewässerschutz und dienen vor allem dem Schutz der an der Talsperre lebenden Tier- und Pflanzenarten;;;;
 mcq;Wie viel Wasser kann die Große Dhünn-Talsperre fassen?;81 Mio. m³;45 Mio m³;12,5 Mio m³;117 Mio m³;
 mcq;Wie viele Badewannen kann man mit dem Wasser der Großen Dhünn-Talsperre füllen?;578017;11730;46173;10168221;
 mcq;Wann wurde die Große Dhünn-Talsperre in Betrieb genommen?;1987;1975;1962;1933;
 mcq;Wie hoch ist der Staudamm von der Großen Dhünn-Talsperre von der Sohle bis zur Dammkrone?;57 m;23 m;35 m;46 m;
-mcq;Das Stauziel der Talsperre liegt auf wie viel Metern über N.N.?;176,5  m ü.N.N.;288,2  m ü.N.N.;57  m ü.N.N.;217,9  m ü.N.N.;
-mcq;Wie hoch ist der Rohwasserentnahmeturm?;66 m;46 m;37 m;53 m;
-mcq;Wie groß ist das Einzugsgebiet der Großen Dhünn-Talsperre einschl. der Sülz?;89 Km²;60 Km²;37 Km²;75 Km²;
+mcq;Auf wie viele Meter über N.N. staut die Dhünn-Talsperre?;176.5;20;;;
+estq;Wie hoch ist der Rohwasserentnahmeturm (in m)?;66;7;;;
+estq;Wie groß ist das Einzugsgebiet der Großen Dhünn-Talsperre einschl. der Sülz (in Km²)?;89;10;;;
 mcq;Wenn die Talsperre gefüllt ist. Wie groß ist dann ihre Staufläche?;440 ha;10.000 ha;1,3 Km²;900 ha;
 mcq;Wie hoch kann das Wasser in der Talsperre gestaut werden?;53 m;17 m;33 m;49 m;
-mcq;Der Staudamm hat eine Kronenbreite von 8,5 m. Wie breit ist er an der Sohle?;210 m;14,5 m;47 m;98 m;
+estq;Der Staudamm hat eine Kronenbreite von 8,5 m. Wie breit ist er an der Sohle (auch in m)?;210;20;;;
 mcq;Wie wird das Wasser genannt, dass der aus der Talsperre entnommen und zu Trinkwasser aufbereitet wird?;Rohwasser;Sprudelwasser;Reinwasser;Grundwasser;
 mcq;Die Dhünn ist der längste Nebenfluss der Wupper. Wie lang ist sie genau?;40 Km;67 Km;23 Km;38 Km;
 mcq;In welchen Fluss mündet die Dhünn?;Wupper;Rhein;Strunde;Eifgenbach;
-mcq;Welchen Höhenunterschied muss man überwinden, wenn man von der Mündung der Dhünn bis Quelle wandern?;274 m;313 m;343 m;298 m;
+mcq;Welchen Höhenunterschied muss man überwinden, wenn man von der Mündung der Dhünn bis zur Quelle wandert? (in m);274;16;;;
 mcq;Die Große Dhünn-Talsperre ist die zweitgrößte Trinkwassertalsperre Deutschlands. Wie heißt die Größte?;Rappbode-Talsperre;Neyetalsperre;Rurtalsperre;Möhnetalsperre;
 mcq;Wie viel Wasser verliert die Große Dhünn-Talsperre jährlich durch Verdunstung und Versickerung?;6 Mio m³;2,3 Mio m³;1,5 Mio m³;4,5 Mio m³;
 mcq;Schirpendhünn, Kotterlinde und Strünken sind?;Versunkene Orte in der Talsperre;Bergische Schimpfwörter ;Baumarten;Alte Familienamen aus dem Dhünntal;
 mcq;Warum ist die Fischartenzusammensetzung unterhalb der Großen Dhünn-Talsperre nicht so, wie die Biologen sich das vorstellen?;Wasser ist zu kalt;Wasser ist zu warm;Chemie ungünstig;Nahrungsangebot ungünstig;
-mcq;Welche Gegensteuerungsmaßnahme ist derzeit an der Großen Dhünn-Talsperre im Bau, um die Fischartenzusammensetzung unterhalb der Talsperre  in der Dhünn zu beeinflussen?;Thermorüssel;Geothermieanlage;Elefantenrüssel;Windkraftanlage;
+mcq;Welche Gegensteuerungsmaßnahme ist derzeit an der Großen Dhünn-Talsperre im Bau, um die Fischartenzusammensetzung unterhalb der Talsperre in der Dhünn zu beeinflussen?;Thermorüssel;Geothermieanlage;Elefantenrüssel;Windkraftanlage;
 rem;;;;;;
 cat;Medienfragen;;;;;
 mcqpic;Wie hoch ist der Rohwasserentnahmeturm der Großen Dhünn-Talsperre?;66 m;46 m;37 m;53 m;2011_09_26_0073
 mcqpic;Welchen Durchmesser hat der Hochwasserentlastungsturm mit Überfalltrichter?;20 m;15 m;7,5 m;12,80 m;P1010039
 mcqpic;Wie heißt der hier gezeigte, längste Nebenfluss der Dhünn?;Eifgenbach;Linnefe;Leimbach;Scherfbach;DSC_0216
-mcqpic;"Wofür wird die so genannte ""Pegelstrecke"" benötigt?";Messung des Abflusses der Dhünn;Zählstation für Lachse;Temperaturerhöhung der Dhünn;Kanalisierung des Flussbetts;DSC_0030
+mcqpic;Wofür wird die so genannte "Pegelstrecke" benötigt?;Messung des Abflusses der Dhünn;Zählstation für Lachse;Temperaturerhöhung der Dhünn;Kanalisierung des Flussbetts;DSC_0030
 mcqpic;An welchem Fluss liegt die Markusmühle?;Eifgenbach;Strunde;Dhünn;Wupper;Markusmühle Dabringhausen 1932
 mcqpic;Die Nutzung der Wasserkraft hat im Bergischen lange Tradition. Welche Mühle wird hier gezeigt?;Rausmühle;Neuemühle;Markusmühle;Coenenmühle;Rausmühle Wermelskirchen 1967
 mcqpic;Talsperren sind anspruchsvolle Ingenieurbauwerke, die starke Eingriffe in die Naturlandschaft vornehmen.  Welcher Teil der Talsperre wird hier gezeigt?;Der Überlauf Vorsperre Kleine Dhün - Dhünntalsperre ;Eine Fischaufstiegsanlage für Lachse;Der Notüberlauf am Staudamm;"Das Flusskunstwerk ""Streuung""";Überlauf Vorsperre Kleine Dhün - Dhünntalsperre 1992
@@ -100,9 +97,14 @@ mcqpic;Das Stauziel der Talsperre liegt auf wie viel Metern über N.N.?;176,5  m
 mcqpic;Wie viele Vorstauanlagen hat die Große Dhünn-Talsprerre?;17;3;15;34;2011_09_26_0040
 mcqpic;Wozu dienen die Vorstauanlagen einer Talsperre?;Sie unterstützen den Gewässerschutz und dienen vor allem dem Schutz der an der Talsperre lebenden Tier- und Pflanzenarten;Energiegewinnung;Wasserfilterung;;2011_09_26_0040
 mcqpic;Wie hoch ist der Staudamm von der Großen Dhünn-Talsperre von der Sohle bis zur Dammkrone?;57 m;23 m;35 m;46 m;2011_09_26_0088
-mcqpic;"Dieses Haus an der Dhünn zeigt den ""Bergischen Dreiklang"". Was bedeutet das?";Kombination aus  schwarzen Fachwerkbalken, weißen Gefachen und grünen Holzschlagläden.;Nicht waagerecht, nicht senkrecht und kein 90° Winkel.;;;DSC_0159
+mcqpic;Dieses Haus an der Dhünn zeigt den "Bergischen Dreiklang". Was bedeutet das?;Kombination aus  schwarzen Fachwerkbalken, weißen Gefachen und grünen Holzschlagläden.;Nicht waagerecht, nicht senkrecht und kein 90° Winkel.;;;DSC_0159
 mcqpic;In welcher Kommune liegt die Quelle der Dhünn?;Wipperfürth;Hückeswagen;Kürten;Wermelskirchen;DSC_0008
 mcqpic;Welche Funktion über dieses Trichter-Bauwerk in der Großen Dhünn-Talsperre aus?;Hochwasserentlastung;Verstärkung von akustischen Schwingungen;Messtrichter für Niederschläge;Kunst am Bau;Dhünn-1_ermann A. Wiese
 mcqpic;Die hier gezeigte Loosenau ist eine ehemalige Pulvermühle. Was wurde hier hergestellt?;Schießpulver;Mehl;Dünger;Waschmittel;DSC_0022
 mcqpic;Welches der vier Fotos zeigt die Große Dhünn-Talsperre?;gr-dhuenn-tsp_mai-2005;brucher-tsp_mai-2005_luftb;bever-tsp_mai-2005_luftb;lingese-tsp_mai-2005_luftb;
-mcqpic;Das hier gezeigte Tosbecken hat welche Funktion?;Verzögerung der Strömung;Schalldämpfung ;Aufenthaltszone für die Wanderfische (Lachse);Auflösung von Strudeln im Wasser;2011_09_26_0094
+mcqpic;Das hier gezeigte Tosbecken hat welche Funktion?;Verzögerung der Strömung;Schalldämpfung;Aufenthaltszone für die Wanderfische (Lachse);Auflösung von Strudeln im Wasser;2011_09_26_0094
+rem;;;;;;
+cat;Scherzfragen;;;;;
+mcq;Jeder kann Wasser sparen, aber wie?;Tropfende Wasserhähne abdichten, Duschen statt Baden, Wasserhahn abstellen beim Zähne putzen;WC-Spülung immer zweimal betätigen, Abwasser in Kübeln aufheben;Nur einen Wasserhahn verwenden, zum Nachbarn gehen und Wasser holen;;
+mcq;Über welche Eigenschaften verfügt das Wasser?;geruchlos, gschmacklos und farblos;Blau, kühl und teuer;voller Bakterien, kohlensäurehaltig, schmeckt süß;;Wasser ist das Lebensmittel Nummer Eins: Trinkwasser ist lebensnotwenig. Dementsprechend zählt es zu den Lebensmitteln, die in ihrer Qualität streng überwacht werden.
+mcq;Wozu dienen die Vorstauanlagen einer Talsperre?;Sie unterstützen den Gewässerschutz und dienen vor allem dem Schutz der an der Talsperre lebenden Tier- und Pflanzenarten;;;;

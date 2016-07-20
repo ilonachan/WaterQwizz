@@ -1,6 +1,7 @@
 package jimdo.gladsoft.anno2016.java.waterquest.android.quests;
 
 import android.app.Activity;
+import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
@@ -45,6 +46,7 @@ public class GenericQuestActivity extends Activity implements View.OnClickListen
 
 		if (quest  != null) {
 			initGUI();
+			return;
 		}
 
 		Intent i = new Intent(this, QuizEndActivity.class);
@@ -62,7 +64,7 @@ public class GenericQuestActivity extends Activity implements View.OnClickListen
 
 
 	public void initGUI() {
-		setContentView(R.layout.mcq_layout);
+		setContentView(R.layout.quest_layout);
 
 		mDesc = (TextView) findViewById(R.id.desc);
 
@@ -75,25 +77,41 @@ public class GenericQuestActivity extends Activity implements View.OnClickListen
 	protected void applyQuestToGUI() {
 		mDesc.setText(quest.getDescription());
 
+		mFragment = null;
+
 		if (quest instanceof MCQuest) {
 			// Add Fragment for MCQuests
 			mFragment = new MCQFragment();
 		}
+		if (quest instanceof EstQuest) {
+			// Add Fragment for MCQuests
+			mFragment = new EstQFragment();
+		}
 
-		FragmentTransaction transaction = getFragmentManager().beginTransaction();
+		if(mFragment == null) throw new Error("Unsupported Quest Type detected; tried to initialize fragment, but couldn´t. Please repair your database.");
+
+		mFragment.setQuest(quest);
+
+		FragmentManager man = getFragmentManager();
+		FragmentTransaction transaction = man.beginTransaction();
 		transaction.replace(R.id.fragmentContainer, mFragment);
 		transaction.commit();
+//		mFragment = (QuestFragment) getFragmentManager().findFragmentById(R.id.fragmentContainer);
 	}
 
 	@Override
 	public void onClick(View view) {
 		if (view == Submit) {
-			Object value = mFragment.getUserSelection(); // TODO: Work out if this type of line can work
-														 // Well, I´m quite sure.
+			Object value = mFragment.getUserSelection(); // Works perfectly; obviously I can interact with my fragment
+														 // just as with any other kind of object.
+
+			if(value == null)
+				return;
+
 			try {
 				quest.answer(value);
 			} catch (InvalidAnswerTypeException | InvalidArgumentException e) {
-				Log.e("QuestActivity: onClick",e.getMessage());
+				Log.e("QuestActivity: onClick","Error");
 			}
 
 			if (quest.isAnswerCorrect()) {
@@ -109,12 +127,20 @@ public class GenericQuestActivity extends Activity implements View.OnClickListen
 				mDesc.setText(mFragment.handleLoss());
 			}
 
-			mDesc.setOnClickListener(v -> startActivity(new Intent(this, AnswerDescActivity.class).putExtra("desc", quest.getExtra())));
+			mDesc.setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View v) {
+					GenericQuestActivity.this.startActivity(new Intent(GenericQuestActivity.this, AnswerDescActivity.class).putExtra("desc", quest.getExtra()));
+				}
+			});
 
 			Submit.setText(R.string.continueButton);
-			Submit.setOnClickListener(v -> {
-				Submit.setText(R.string.submit);
-				proceedQuiz();
+			Submit.setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View v) {
+					Submit.setText(R.string.submit);
+					GenericQuestActivity.this.proceedQuiz();
+				}
 			});
 		}
 	}

@@ -32,6 +32,10 @@
 			android:layout_below="@+id/desc"
 			android:layout_alignParentStart="true"
 			android:layout_above="@+id/SubmitButton"
-			android:orientation="vertical">
-    </LinearLayout>
+			android:orientation="vertical" android:layout_marginBottom="10dp">
+		<!--<fragment android:layout_width="match_parent"
+				  android:layout_height="match_parent"
+				  android:name="jimdo.gladsoft.anno2016.java.waterquest.android.quests.MCQFragment"
+				  android:id="@+id/fragment" tools:layout="@layout/mcq_fragment"/>-->
+	</LinearLayout>
 </RelativeLayout>

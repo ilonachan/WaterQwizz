@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import jimdo.gladsoft.anno2016.java.waterquest.R;
+import jimdo.gladsoft.anno2016.java.waterquest.quests.GeneralQuest;
 import jimdo.gladsoft.anno2016.java.waterquest.quests.MCQuest;
 
 /**
@@ -31,5 +32,7 @@ public abstract class QuestFragment extends Fragment {
 	public abstract String handleLoss();
 
 	public abstract Object getUserSelection();
+
+	public abstract void setQuest(GeneralQuest q);
 
 }

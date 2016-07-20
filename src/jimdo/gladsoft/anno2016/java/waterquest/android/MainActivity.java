@@ -12,6 +12,7 @@ import android.widget.*;
 import jimdo.gladsoft.anno2016.java.waterquest.R;
 import jimdo.gladsoft.anno2016.java.waterquest.User;
 import jimdo.gladsoft.anno2016.java.waterquest.UserManager;
+import jimdo.gladsoft.anno2016.java.waterquest.android.quests.GenericQuestActivity;
 import jimdo.gladsoft.anno2016.java.waterquest.quests.QuestManager;
 
 
@@ -73,7 +74,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
     }
 
     public void startQuiz(boolean isTimeRace) {
-        this.startActivityForResult(new Intent(this, QuizRun.class).putExtra("user", userManager.getCurrent()),0x28bca406);
+        this.startActivityForResult(new Intent(this, GenericQuestActivity.class).putExtra("user", userManager.getCurrent()),0x28bca406);
     }
 
     @Override

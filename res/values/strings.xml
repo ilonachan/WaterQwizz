@@ -28,5 +28,7 @@
 	<string name="developmentOf">A development of:</string>
     <string name="correct">Correct!!!</string>
     <string name="wrong">Wrong :´(</string>
+    <string name="estcorrect">Very good!\nThe value was: %d</string>
+    <string name="estwrong">Too bad...\nThe value was: %d</string>
 
 </resources>

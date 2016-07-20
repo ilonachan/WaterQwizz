@@ -45,6 +45,7 @@
     </layouts>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="BookmarkManager">
@@ -52,8 +53,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c7fe7bc-5e1a-46b9-bd32-b895d501e82e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-port/estq_fragment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/EstQFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-port/quest_layout.xml" afterPath="$PROJECT_DIR$/res/layout-port/quest_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/raw/questions.csv" afterPath="$PROJECT_DIR$/res/raw/questions.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/QuestReader.java" afterPath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/QuestReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/MainActivity.java" afterPath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/GenericQuestActivity.java" afterPath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/GenericQuestActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/MCQFragment.java" afterPath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/MCQFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/QuestFragment.java" afterPath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/QuestFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/quests/QuestManager.java" afterPath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/quests/QuestManager.java" />
     </list>
     <ignored path="Qwizz Andy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,72 +85,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GeneralQuest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/quests/GeneralQuest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GenericQuestActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/GenericQuestActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="113" column="46" selection-start-line="113" selection-start-column="46" selection-end-line="113" selection-end-column="46" />
+            <state relative-caret-position="353">
+              <caret line="90" column="152" selection-start-line="90" selection-start-column="152" selection-end-line="90" selection-end-column="152" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3109#3124#0" expanded="true" />
+                <element signature="e#3704#3727#0" expanded="true" />
+                <element signature="e#3856#3871#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuizRun.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/QuizRun.java">
+      <file leaf-file-name="questions.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/raw/questions.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="84" column="5" selection-start-line="66" selection-start-column="4" selection-end-line="84" selection-end-column="5" />
+            <state relative-caret-position="442">
+              <caret line="109" column="177" selection-start-line="109" selection-start-column="177" selection-end-line="109" selection-end-column="177" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MCQActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/MCQActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="97" selection-end-column="106" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quest_layout.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout-port/quest_layout.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MCQFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/MCQFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="24" column="103" selection-start-line="24" selection-start-column="103" selection-end-line="24" selection-end-column="103" />
+            <state relative-caret-position="220">
+              <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
               <folding>
-                <element signature="e#1535#1536#0" expanded="true" />
-                <element signature="e#1557#1558#0" expanded="true" />
+                <element signature="e#1581#1582#0" expanded="true" />
+                <element signature="e#1607#1608#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,9 +125,44 @@
       <file leaf-file-name="QuestFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/QuestFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+            <state relative-caret-position="442">
+              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EstQActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/EstQActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EstQFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/EstQFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+              <folding>
+                <element signature="e#969#970#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+                <element signature="e#1107#1176#0" expanded="true" />
+                <element signature="e#1289#1356#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,8 +179,8 @@
         <option value="valueResourceFile" />
         <option value="Class" />
         <option value="Activity" />
-        <option value="Fragment" />
         <option value="layoutResourceFile_vertical" />
+        <option value="Fragment" />
       </list>
     </option>
   </component>
@@ -196,8 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/android/quests/QuestManager.java" />
-        <option value="$PROJECT_DIR$/res/raw/quests.csv" />
         <option value="$PROJECT_DIR$/res/layout/answerdesc_layout.xml" />
         <option value="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/quests/GeneralQuest.java" />
         <option value="$PROJECT_DIR$/src/com/thundersoft/anno2016/mintcamp/qwizz/quests/EstQuest.java" />
@@ -222,7 +232,6 @@
         <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/User.java" />
         <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/Main.java" />
         <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/QuizEndActivity.java" />
-        <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/InstructActivity.java" />
         <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/CreditsActivity.java" />
         <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/MCQActivity.java" />
@@ -230,8 +239,6 @@
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/EstQActivity.java" />
         <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/quests/EstQuest.java" />
-        <option value="$PROJECT_DIR$/res/raw/questions.csv" />
-        <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/QuestReader.java" />
         <option value="$PROJECT_DIR$/res/layout-port/cred_layout.xml" />
         <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/quests/MCQuest.java" />
         <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/quests/GeneralQuest.java" />
@@ -241,11 +248,16 @@
         <option value="$PROJECT_DIR$/res/layout-port/estq_layout.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/res/layout-port/mcq_fragment.xml" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/res/layout-port/quest_layout.xml" />
-        <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/MCQFragment.java" />
+        <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/QuestFragment.java" />
         <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/quests/QuestManager.java" />
+        <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/QuestReader.java" />
+        <option value="$PROJECT_DIR$/res/layout-port/quest_layout.xml" />
+        <option value="$PROJECT_DIR$/res/raw/questions.csv" />
+        <option value="$PROJECT_DIR$/res/layout-port/estq_fragment.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/MCQFragment.java" />
+        <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/EstQFragment.java" />
         <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/GenericQuestActivity.java" />
       </list>
     </option>
@@ -343,6 +355,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="quests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Qwizz Andy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WaterQuest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="waterquest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -370,6 +404,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="quests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Qwizz Andy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WaterQuest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Qwizz Andy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WaterQuest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Qwizz Andy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WaterQuest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Qwizz Andy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WaterQuest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout-port" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -874,7 +976,14 @@
       <option name="project" value="LOCAL" />
       <updated>1469012641961</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Next Steps done - Testing can be performed by simply calling the GenericQuestActivity instead of QuizRun">
+      <created>1469015426882</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1469015426882</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -883,14 +992,15 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.495" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2642487" sideWeight="0.5082645" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32860824" sideWeight="0.5025" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.4975" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10297927" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57104915" sideWeight="0.5051814" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22177956" sideWeight="0.49481866" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04080311" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22576362" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -900,7 +1010,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32966322" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32966322" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27232143" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -908,7 +1018,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.495" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33791524" sideWeight="0.49353796" order="11" side_tool="false" content_ui="tabs" />
     </layout>
@@ -941,7 +1050,8 @@
     <MESSAGE value="Okay , but NOW it works" />
     <MESSAGE value="Changed some layouts, and (finally) worked on the EstimateQuest Layout. Also modified the gitignore file to be most efficient&#10;" />
     <MESSAGE value="Plans to rebase the application on Fragments. This will make creating new Quest types even easier..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Plans to rebase the application on Fragments. This will make creating new Quest types even easier..." />
+    <MESSAGE value="Next Steps done - Testing can be performed by simply calling the GenericQuestActivity instead of QuizRun" />
+    <option name="LAST_COMMIT_MESSAGE" value="Next Steps done - Testing can be performed by simply calling the GenericQuestActivity instead of QuizRun" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -954,8 +1064,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gen/com/thundersoft/anno2016/mintcamp/waterquest/R.java" />
-    <entry file="file://C:/android-sdks/sources/android-21/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/res/layout-port/addq_layout.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1063,13 +1171,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/InstructActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1126,13 +1227,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/raw/questions.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1819">
-          <caret line="107" column="191" selection-start-line="107" selection-start-column="191" selection-end-line="107" selection-end-column="191" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/android-sdk/sources/android-19/java/io/BufferedReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1165,16 +1259,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/QuestReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/quests/MCQuest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1003">
@@ -1182,22 +1266,6 @@
           <folding>
             <element signature="e#1488#1489#0" expanded="false" />
             <element signature="e#1519#1520#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/EstQActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1428#1429#0" expanded="false" />
-            <element signature="e#1481#1482#0" expanded="false" />
-            <element signature="e#2178#2420#0" expanded="false" />
-            <element signature="e#2419#2420#0" expanded="false" />
-            <element signature="e#2515#2762#0" expanded="false" />
-            <element signature="e#2761#2762#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1251,17 +1319,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-port/mcq_fragment.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout-port/mcq_layout.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1273,28 +1330,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/QuizRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        <state relative-caret-position="563">
+          <caret line="84" column="5" selection-start-line="66" selection-start-column="4" selection-end-line="84" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/MCQActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="97" selection-end-column="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-port/quest_layout.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout-port/mcq_fragment.xml">
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1302,29 +1349,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/QuestFragment.java">
+    <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/quests/QuestManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        <state relative-caret-position="-301">
+          <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/MCQFragment.java">
+    <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/QuestReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="103" selection-start-line="24" selection-start-column="103" selection-end-line="24" selection-end-column="103" />
-          <folding>
-            <element signature="e#1535#1536#0" expanded="true" />
-            <element signature="e#1557#1558#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/quests/QuestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="133" column="39" selection-start-line="133" selection-start-column="39" selection-end-line="133" selection-end-column="39" />
+        <state relative-caret-position="408">
+          <caret line="69" column="75" selection-start-line="69" selection-start-column="75" selection-end-line="69" selection-end-column="75" />
           <folding />
         </state>
       </provider>
@@ -1337,21 +1373,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/QuizRun.java">
+    <entry file="file://$PROJECT_DIR$/res/layout-port/quest_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="84" column="5" selection-start-line="66" selection-start-column="4" selection-end-line="84" selection-end-column="5" />
+        <state relative-caret-position="522">
+          <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/MCQActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="76" column="73" selection-start-line="76" selection-start-column="73" selection-end-line="76" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/raw/questions.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="109" column="177" selection-start-line="109" selection-start-column="177" selection-end-line="109" selection-end-column="177" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-port/estq_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/MCQFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+          <folding>
+            <element signature="e#1581#1582#0" expanded="true" />
+            <element signature="e#1607#1608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/QuestFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/EstQActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/EstQFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+          <folding>
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1107#1176#0" expanded="true" />
+            <element signature="e#1289#1356#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/GenericQuestActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="113" column="46" selection-start-line="113" selection-start-column="46" selection-end-line="113" selection-end-column="46" />
+        <state relative-caret-position="353">
+          <caret line="90" column="152" selection-start-line="90" selection-start-column="152" selection-end-line="90" selection-end-column="152" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3109#3124#0" expanded="true" />
+            <element signature="e#3704#3727#0" expanded="true" />
+            <element signature="e#3856#3871#0" expanded="true" />
           </folding>
         </state>
       </provider>
