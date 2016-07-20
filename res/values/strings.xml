@@ -23,8 +23,10 @@
     <string name="credits">Credits</string>
     <string name="createdBy">Created By:</string>
     <string name="theCreators">Anton Schlömer\nAshley Hillebrand\nTimo Kalker\nMarius Gleißner</string>
-    <string name="instructionText">This is actually an Activity!</string>
+    <string name="instructionText">Welcome to WaterQuest!\n"WaterQuest" is a creation of "gladSoft Productions" during a programming summercamp</string>
     <string name="VersionName">0.1 Beta 1</string>
-	<string name="developmentOf">Eine Entwicklung von:</string>
+	<string name="developmentOf">A development of:</string>
+    <string name="correct">Correct!!!</string>
+    <string name="wrong">Wrong :´(</string>
 
 </resources>

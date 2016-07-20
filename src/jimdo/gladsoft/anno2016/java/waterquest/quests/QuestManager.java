@@ -129,6 +129,14 @@ public class QuestManager implements Serializable{
         return mEloVal;
     }
 
+	/**
+	 * Manages the score the player has after having played.
+	 * TODO: Find an algorithm that suits the ELO Calculation System better
+	 *
+	 * @param correct
+	 * @param total
+	 * @param averageDifficulty
+	 */
     public void manageElo(int correct, int total, int averageDifficulty) {
         double score = correct/total * averageDifficulty * 100;
         setHighscore((int)Math.ceil(score));

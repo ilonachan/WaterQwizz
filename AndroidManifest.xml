@@ -27,5 +27,6 @@
                   android:screenOrientation="sensorPortrait"/>
         <activity android:name=".android.CreditsActivity"
                   android:screenOrientation="sensorPortrait"/>
-    </application>
+		<activity android:name=".android.quests.GenericQuestActivity"/>
+	</application>
 </manifest>

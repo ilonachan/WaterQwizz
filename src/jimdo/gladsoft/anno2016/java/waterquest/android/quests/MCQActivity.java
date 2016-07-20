@@ -1,7 +1,6 @@
 package jimdo.gladsoft.anno2016.java.waterquest.android.quests;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -9,7 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 import jimdo.gladsoft.anno2016.java.waterquest.R;
 import jimdo.gladsoft.anno2016.java.waterquest.quests.InvalidAnswerTypeException;
 import jimdo.gladsoft.anno2016.java.waterquest.quests.InvalidArgumentException;
@@ -40,7 +38,7 @@ public class MCQActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.mcq_layout);
 
         mDesc = (TextView) findViewById(R.id.desc);
-        mAnswers = (LinearLayout) findViewById(R.id.answers);
+        mAnswers = (LinearLayout) findViewById(R.id.fragmentContainer);
 
         Skip = (Button) findViewById(R.id.SkipButton);
         Submit = (Button) findViewById(R.id.SubmitButton);
