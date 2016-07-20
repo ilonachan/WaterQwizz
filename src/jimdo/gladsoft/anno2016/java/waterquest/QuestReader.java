@@ -8,6 +8,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.io.*;
 import java.util.Arrays;
+import java.util.Objects;
 
 /**
  * @author Anton
@@ -50,9 +51,10 @@ public class QuestReader {
     @Nullable
     private GeneralQuest decodeQuestFromString(String word) {
         String[] parts = word.split(";");
-        if(parts[0] == "rem") return null;
+        if(parts == null) return null;
+        if(parts[0].equals("rem")) return null;
         if(parts.length < 2) return null;
-        if(parts[0] == "cat" && parts.length >= 2) {
+        if(parts[0].equals("cat") && parts.length >= 2) {
             mCategory = parts[1];
             return null;
         }
@@ -67,7 +69,7 @@ public class QuestReader {
             case "estq":
                 float val = Float.parseFloat(parts[2]);
                 float tol = Float.parseFloat(parts[3]);
-                return /*new EstQuest(val,Desc,Extra,tol, mCategory)*/ null;
+                return new EstQuest(val,Desc,Extra,tol, mCategory);
             default:
                 return null;
         }

@@ -52,19 +52,9 @@
     <bookmark url="file://$PROJECT_DIR$/AndroidManifest.xml" line="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7fe7bc-5e1a-46b9-bd32-b895d501e82e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-port/estq_fragment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/EstQFragment.java" />
+    <list default="true" id="6c7fe7bc-5e1a-46b9-bd32-b895d501e82e" name="Default" comment="Hahaha... I´ve blocked EstQuests before, so OF COURSE they won´t work! Now the problem should exactly be solved...">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-port/quest_layout.xml" afterPath="$PROJECT_DIR$/res/layout-port/quest_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/raw/questions.csv" afterPath="$PROJECT_DIR$/res/raw/questions.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/QuestReader.java" afterPath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/QuestReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/MainActivity.java" afterPath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/GenericQuestActivity.java" afterPath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/GenericQuestActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/MCQFragment.java" afterPath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/MCQFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/QuestFragment.java" afterPath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/QuestFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/quests/QuestManager.java" afterPath="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/quests/QuestManager.java" />
     </list>
     <ignored path="Qwizz Andy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,16 +75,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GenericQuestActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GenericQuestActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/GenericQuestActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="353">
-              <caret line="90" column="152" selection-start-line="90" selection-start-column="152" selection-end-line="90" selection-end-column="152" />
+              <caret line="90" column="99" selection-start-line="90" selection-start-column="89" selection-end-line="90" selection-end-column="99" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3704#3727#0" expanded="true" />
                 <element signature="e#3856#3871#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuestReader.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/QuestReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -251,7 +251,6 @@
         <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/QuestFragment.java" />
         <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/quests/QuestManager.java" />
-        <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/QuestReader.java" />
         <option value="$PROJECT_DIR$/res/layout-port/quest_layout.xml" />
         <option value="$PROJECT_DIR$/res/raw/questions.csv" />
         <option value="$PROJECT_DIR$/res/layout-port/estq_fragment.xml" />
@@ -259,6 +258,7 @@
         <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/MCQFragment.java" />
         <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/EstQFragment.java" />
         <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/GenericQuestActivity.java" />
+        <option value="$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/QuestReader.java" />
       </list>
     </option>
   </component>
@@ -983,7 +983,14 @@
       <option name="project" value="LOCAL" />
       <updated>1469015426882</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Finally! This version of the &quot;Fragment-ation task&quot; did produce best results. I can now play the game, and the Skip button was also removed. Only I want to know now if the Estimate Quests work...">
+      <created>1469032870231</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1469032870231</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -992,13 +999,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.495" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32802126" sideWeight="0.495" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2642487" sideWeight="0.5082645" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57104915" sideWeight="0.5051814" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22177956" sideWeight="0.49481866" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22177956" sideWeight="0.49481866" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04080311" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22576362" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1051,7 +1058,9 @@
     <MESSAGE value="Changed some layouts, and (finally) worked on the EstimateQuest Layout. Also modified the gitignore file to be most efficient&#10;" />
     <MESSAGE value="Plans to rebase the application on Fragments. This will make creating new Quest types even easier..." />
     <MESSAGE value="Next Steps done - Testing can be performed by simply calling the GenericQuestActivity instead of QuizRun" />
-    <option name="LAST_COMMIT_MESSAGE" value="Next Steps done - Testing can be performed by simply calling the GenericQuestActivity instead of QuizRun" />
+    <MESSAGE value="Finally! This version of the &quot;Fragment-ation task&quot; did produce best results. I can now play the game, and the Skip button was also removed. Only I want to know now if the Estimate Quests work..." />
+    <MESSAGE value="Hahaha... I´ve blocked EstQuests before, so OF COURSE they won´t work! Now the problem should exactly be solved..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Hahaha... I´ve blocked EstQuests before, so OF COURSE they won´t work! Now the problem should exactly be solved..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1357,14 +1366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/QuestReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="69" column="75" selection-start-line="69" selection-start-column="75" selection-end-line="69" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/quests/GeneralQuest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
@@ -1474,12 +1475,20 @@
     <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/android/quests/GenericQuestActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
-          <caret line="90" column="152" selection-start-line="90" selection-start-column="152" selection-end-line="90" selection-end-column="152" />
+          <caret line="90" column="99" selection-start-line="90" selection-start-column="89" selection-end-line="90" selection-end-column="99" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3704#3727#0" expanded="true" />
             <element signature="e#3856#3871#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jimdo/gladsoft/anno2016/java/waterquest/QuestReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
