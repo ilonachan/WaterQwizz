@@ -6,21 +6,21 @@ package jimdo.gladsoft.anno2016.java.waterquest.quests;
  */
 public class EstQuest extends GeneralQuest{
 
-    private float mCorrectAnswer;
-    private float mTolerance;
+    private double mCorrectAnswer;
+    private double mTolerance;
 
     @Override
     public boolean answer(Object answer) throws InvalidAnswerTypeException, InvalidArgumentException {
         if (mAnswered)
             return isAnswerCorrect();
-        if (answer instanceof Float) {
+        if (answer instanceof Double) {
             this.mUserAnswer = answer;
             this.mAnswered = true;
-            float diff = Math.abs(mCorrectAnswer - (Float)answer);
-            this.mCorrect = (diff < mTolerance);
+            double diff = Math.abs(mCorrectAnswer - (double)answer);
+            this.mCorrect = (diff <= mTolerance);
             return mCorrect;
         } else {
-            throw new InvalidAnswerTypeException(answer, Integer.class);
+            throw new InvalidAnswerTypeException(answer, Double.class);
         }
     }
 
@@ -42,13 +42,13 @@ public class EstQuest extends GeneralQuest{
         this.mTolerance = tol;
     }
 
-    public float getExactAnswer() {
+    public double getExactAnswer() {
         if(mAnswered)
             return mCorrectAnswer;
         return 0;
     }
 
-    public float getTolerance(){
+    public double getTolerance(){
         return mTolerance;
     }
 
