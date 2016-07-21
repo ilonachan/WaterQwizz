@@ -1,7 +1,6 @@
 package jimdo.gladsoft.anno2016.java.waterquest.android.quests;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,8 +11,11 @@ import jimdo.gladsoft.anno2016.java.waterquest.quests.EstQuest;
 import jimdo.gladsoft.anno2016.java.waterquest.quests.GeneralQuest;
 
 /**
- * @author Anton
- * @version ??? - 20.07.2016
+ * The class represents the interface for a quest where the user may guess a numeric value.<br/>
+ * It is implemented to be possibly embedded by {@link GenericQuestActivity} to be displayed.
+ *
+ * @author gladSoft Productions
+ * @version 0.2b1 - 20.07.2016
  */
 public class EstQFragment extends QuestFragment {
 
@@ -30,8 +32,8 @@ public class EstQFragment extends QuestFragment {
 	}
 
 	@Override
-	public void setQuest(GeneralQuest q) {
-		quest = (EstQuest) q;
+	public void setQuest(GeneralQuest quest) {
+		this.quest = (EstQuest) quest;
 	}
 
 	public String handleWin() {

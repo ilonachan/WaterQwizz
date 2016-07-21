@@ -13,8 +13,10 @@ import jimdo.gladsoft.anno2016.java.waterquest.quests.InvalidArgumentException;
 
 /**
  * @author fgast34
- * @version ??? - 12.07.2016.
+ * @version 0.1b1 - 12.07.2016.
+ * @deprecated as of Version 0.2b1, this class is no longer used; See {@link EstQFragment} instead
  */
+@Deprecated
 public class EstQActivity extends Activity implements View.OnClickListener {
 
     EstQuest quest;

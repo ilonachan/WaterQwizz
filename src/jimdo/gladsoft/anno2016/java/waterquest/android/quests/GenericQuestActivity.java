@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import jimdo.gladsoft.anno2016.java.waterquest.R;
 import jimdo.gladsoft.anno2016.java.waterquest.User;
@@ -16,8 +15,11 @@ import jimdo.gladsoft.anno2016.java.waterquest.android.QuizEndActivity;
 import jimdo.gladsoft.anno2016.java.waterquest.quests.*;
 
 /**
- * @author Anton
- * @version ??? - 19.07.2016
+ * The class manages a Quiz run, as well as the functionality needed for any quest type (such as the "Submit" button).
+ *
+ * @since 0.2b1
+ * @author gladsoft Productions
+ * @version 0.2b1 - 19.07.2016
  */
 public class GenericQuestActivity extends Activity implements View.OnClickListener {
 

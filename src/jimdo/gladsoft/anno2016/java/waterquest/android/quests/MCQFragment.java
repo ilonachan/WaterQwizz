@@ -1,6 +1,5 @@
 package jimdo.gladsoft.anno2016.java.waterquest.android.quests;
 
-import android.app.Fragment;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -13,8 +12,11 @@ import jimdo.gladsoft.anno2016.java.waterquest.quests.GeneralQuest;
 import jimdo.gladsoft.anno2016.java.waterquest.quests.MCQuest;
 
 /**
- * @author Anton
- * @version ??? - 19.07.2016
+ * The class represents the interface for a quest where the user select one of 3/4 answers.<br/>
+ * It is implemented to be possibly embedded by {@link GenericQuestActivity} to be displayed.
+ *
+ * @author gladSoft Productions
+ * @version 0.2b1 - 19.07.2016
  */
 public class MCQFragment extends QuestFragment implements View.OnClickListener {
 
@@ -52,8 +54,8 @@ public class MCQFragment extends QuestFragment implements View.OnClickListener {
 	}
 
 	@Override
-	public void setQuest(GeneralQuest q) {
-		quest = (MCQuest) q;
+	public void setQuest(GeneralQuest quest) {
+		this.quest = (MCQuest) quest;
 	}
 
 	public String handleWin() {
