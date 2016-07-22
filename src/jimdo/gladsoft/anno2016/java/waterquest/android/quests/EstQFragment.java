@@ -48,7 +48,7 @@ public class EstQFragment extends QuestFragment {
 
 	public Object getUserSelection() {
 		try {
-			return Float.parseFloat(mAnswer.getText().toString());
+			return Double.parseDouble(mAnswer.getText().toString());
 		}catch(NumberFormatException e) {
 			return null;
 		}
