@@ -50,29 +50,35 @@ public class QuestReader {
     @Nullable
     private GeneralQuest decodeQuestFromString(String word) {
         String[] parts = word.split(";");
-        if(parts == null) return null;
-        if(parts[0].equals("rem")) return null;
-        if(parts.length < 2) return null;
-        if(parts[0].equals("cat") && parts.length >= 2) {
-            mCategory = parts[1];
-            return null;
-        }
-        String Desc = parts[1];
-        String Extra = null;
-        if (parts.length >= 7) Extra = parts[6];
-        switch(parts[0]){
+
+	    String Desc = getArrSafe(parts,1);
+	    String Extra = getArrSafe(parts,2);
+	    if(Extra == "") Extra = null;
+        switch(getArrSafe(parts,0)){
             case "mcq":
-                String[] ans = Arrays.copyOfRange(parts,2,6);
+                String[] ans = Arrays.copyOfRange(parts,3,7);
                 if(ans[3] == null) ans = Arrays.copyOfRange(ans,0,3);
                 return new MCQuest(ans,1,Desc, Extra, mCategory);
             case "estq":
-                float val = Float.parseFloat(parts[2]);
-                float tol = Float.parseFloat(parts[3]);
+                double val = Double.parseDouble(parts[3]);
+                double tol = Double.parseDouble(parts[4]);
                 return new EstQuest(val,Desc,Extra,tol, mCategory);
+	        case "cat":
+		        if(parts.length < 2) return null;
+		        mCategory = getArrSafe(parts,1);
+		        return null;
             default:
                 return null;
         }
     }
+
+	private String getArrSafe(String[] list, int index) {
+		try{
+			return list[index];
+		} catch (ArrayIndexOutOfBoundsException | NullPointerException e) {
+			return null;
+		}
+	}
 
     public void close() throws IOException {
         mStream.close();

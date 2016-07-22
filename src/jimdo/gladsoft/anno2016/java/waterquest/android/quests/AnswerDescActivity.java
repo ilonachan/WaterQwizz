@@ -22,7 +22,7 @@ public class AnswerDescActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         String extraDesc = getIntent().getStringExtra("desc");
-        if(extraDesc == null) finish();
+        if(extraDesc == null || extraDesc.length() == 0) finish();
 
         setContentView(R.layout.answerdesc_layout);
 
